@@ -1,0 +1,938 @@
+2021-05-08 17:07:50.510 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 17488 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-08 17:07:50.517 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: dev
+2021-05-08 17:07:52.031 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 8088 (http)
+2021-05-08 17:07:52.076 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8088"]
+2021-05-08 17:07:52.087 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2021-05-08 17:07:52.088 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2021-05-08 17:07:52.266 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-05-08 17:07:52.266 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 1697 ms
+2021-05-08 17:07:53.111 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-08 17:07:53.292 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8088"]
+2021-05-08 17:07:53.330 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:202 - Tomcat started on port(s): 8088 (http) with context path ''
+2021-05-08 17:07:53.333 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 4.13 seconds (JVM running for 7.185)
+2021-05-08 17:10:13.598 [http-nio-8088-exec-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:67 - samlResponseParam:
+2021-05-08 17:10:13.599 [http-nio-8088-exec-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:68 - samlRelayState:
+2021-05-08 17:10:13.599 [http-nio-8088-exec-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:74 - iamToken::::
+2021-05-08 17:10:15.919 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:10:15.924 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:10:15.928 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:10:15.933 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:10:15.951 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:10:15.982 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:10:15.988 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 17:10:16.003 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 17:10:16.013 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:10:16.058 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:10:16.065 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 17:10:16.070 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 17:10:16.097 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:10:16.125 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:10:16.129 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:10:16.137 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:10:16.170 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:10:16.351 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:10:16.356 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:10:16.387 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:10:16.390 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 17:10:16.403 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 17:10:16.418 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:10:16.515 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:10:16.521 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:10:16.596 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:10:16.600 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 17:10:16.636 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 17:10:16.637 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:10:16.639 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:10:16.648 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:10:16.821 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:10:16.826 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 17:10:16.864 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 17:10:16.866 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:10:16.867 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:10:16.876 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:10:16.912 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:10:16.915 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:10:16.934 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:10:16.936 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:10:16.946 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:10:16.947 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:10:16.956 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:10:16.963 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:10:16.984 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:10:16.987 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:10:16.988 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:10:16.992 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:10:17.055 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:10:17.061 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:10:17.134 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:10:17.139 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:10:17.141 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:10:17.145 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:10:17.146 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:10:17.148 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:10:17.214 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:10:17.217 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:10:17.334 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:10:17.334 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:198 - Preparing to load IDAttributes
+2021-05-08 17:10:17.334 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:200 - IDAttributes load complete
+2021-05-08 17:10:55.753 [http-nio-8088-exec-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:182 - p7StringParamJsonStr:===>{"p7String":"{\"subUserId\":\"210507dfe42b2b7dbb4096a8eaec6985bbf420015797\"}"}
+2021-05-08 17:55:47.138 [http-nio-8088-exec-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:185 - jsonResponse:{"State":200,"Message":"","Data":{"jwt":"HeFKCesPgQUHBBDMuxyoPQaecGNKbEZyeWGTe.GbSbHB1Yw8iTrJYSpKU5eaLYURu8XGnhRCmWHtBs4sSg2zzUGW6p6ThJTcowhQS5Sg1DEunoH7YwiVnSHSQoAQwnuvK9usPvCwTrfNk3mZxEBp6DmaZU89hVWv6SCSCFE9VNsuAYD8bjbw1dSwX4Q.HdGn7HcqRf499hBPmVmeayuXPfiBiPx3xMdiqm6T7TKW"}}
+2021-05-08 17:55:51.764 [Thread-3] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-08 17:56:01.287 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 19372 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-08 17:56:01.290 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: dev
+2021-05-08 17:56:02.575 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 8088 (http)
+2021-05-08 17:56:02.594 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8088"]
+2021-05-08 17:56:02.616 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2021-05-08 17:56:02.617 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2021-05-08 17:56:02.732 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-05-08 17:56:02.734 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 1399 ms
+2021-05-08 17:56:03.459 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-08 17:56:03.638 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8088"]
+2021-05-08 17:56:03.665 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:202 - Tomcat started on port(s): 8088 (http) with context path ''
+2021-05-08 17:56:03.669 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 3.08 seconds (JVM running for 4.746)
+2021-05-08 17:56:10.954 [http-nio-8088-exec-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:66 - samlResponseParam:
+2021-05-08 17:56:10.955 [http-nio-8088-exec-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:67 - samlRelayState:
+2021-05-08 17:56:10.956 [http-nio-8088-exec-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:73 - iamToken::::
+2021-05-08 17:56:11.520 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:56:11.523 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:56:11.528 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:56:11.532 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:56:11.546 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:56:11.590 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:56:11.600 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 17:56:11.617 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 17:56:11.628 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:56:11.646 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:56:11.650 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 17:56:11.654 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 17:56:11.658 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:56:11.667 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:56:11.670 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:56:11.680 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:56:11.689 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:56:11.706 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:56:11.711 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:56:11.720 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:56:11.723 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 17:56:11.748 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 17:56:11.759 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:56:11.785 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:56:11.793 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:56:11.827 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:56:11.830 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 17:56:11.845 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 17:56:11.848 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:56:11.849 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:56:11.854 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:56:11.898 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:56:11.901 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 17:56:11.917 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 17:56:11.919 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:56:11.920 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:56:11.921 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:56:11.922 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:56:11.924 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:56:11.929 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:56:11.932 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:56:11.935 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:56:11.937 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:56:11.939 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:56:11.942 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:56:11.947 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:56:11.949 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:56:11.950 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:56:11.952 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:56:11.982 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:56:11.987 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:56:12.046 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:56:12.049 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:56:12.050 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:56:12.051 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:56:12.052 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:56:12.054 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:56:12.075 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:56:12.080 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:56:12.099 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:56:12.100 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:198 - Preparing to load IDAttributes
+2021-05-08 17:56:12.101 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:200 - IDAttributes load complete
+2021-05-08 17:56:17.875 [http-nio-8088-exec-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:181 - p7StringParamJsonStr:===>{"p7String":"{\"subUserId\":\"210507dfe42b2b7dbb4096a8eaec6985bbf420015797\"}"}
+2021-05-08 17:56:23.416 [http-nio-8088-exec-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:184 - jsonResponse:{"State":400,"Message":"新增帐号失败：Error 1062: Duplicate entry '210507dfe42b2b7dbb4096a8eaec6985bbf420015797' for key 'PRIMARY'","Data":"Error 1062: Duplicate entry '210507dfe42b2b7dbb4096a8eaec6985bbf420015797' for key 'PRIMARY'"}
+2021-05-08 17:58:33.222 [http-nio-8088-exec-4] INFO  com.tongji.samlsp.service.SAMLSPServlet:66 - samlResponseParam:
+2021-05-08 17:58:33.223 [http-nio-8088-exec-4] INFO  com.tongji.samlsp.service.SAMLSPServlet:67 - samlRelayState:
+2021-05-08 17:58:33.224 [http-nio-8088-exec-4] INFO  com.tongji.samlsp.service.SAMLSPServlet:73 - iamToken::::
+2021-05-08 17:58:33.247 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:58:33.248 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:58:33.253 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:58:33.255 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:58:33.259 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:58:33.260 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:58:33.263 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 17:58:33.264 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 17:58:33.270 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:58:33.272 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:58:33.275 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 17:58:33.277 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 17:58:33.279 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:58:33.279 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:58:33.281 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:58:33.281 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:58:33.286 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:58:33.287 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:58:33.289 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:58:33.290 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:58:33.291 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 17:58:33.293 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 17:58:33.295 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:58:33.296 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:58:33.298 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:58:33.299 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:58:33.305 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 17:58:33.307 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 17:58:33.308 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:58:33.308 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:58:33.311 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:58:33.312 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:58:33.314 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 17:58:33.315 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 17:58:33.317 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:58:33.317 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:58:33.318 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:58:33.318 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:58:33.320 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:58:33.321 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:58:33.322 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:58:33.322 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:58:33.324 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:58:33.325 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:58:33.327 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:58:33.327 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:58:33.329 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:58:33.329 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:58:33.331 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:58:33.332 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:58:33.336 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:58:33.344 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:58:33.346 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:58:33.346 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:58:33.348 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:58:33.353 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:58:33.355 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:58:33.357 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:58:33.359 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 17:58:33.360 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 17:58:33.360 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:198 - Preparing to load IDAttributes
+2021-05-08 17:58:33.360 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:200 - IDAttributes load complete
+2021-05-08 17:58:35.933 [http-nio-8088-exec-4] INFO  com.tongji.samlsp.service.SAMLSPServlet:181 - p7StringParamJsonStr:===>{"p7String":"{\"subUserId\":\"210507dfe42b2b7dbb4096a8eaec6985bbf420015797\"}"}
+2021-05-08 17:58:36.507 [http-nio-8088-exec-4] INFO  com.tongji.samlsp.service.SAMLSPServlet:184 - jsonResponse:{"State":400,"Message":"新增帐号失败：Error 1062: Duplicate entry '210507dfe42b2b7dbb4096a8eaec6985bbf420015797' for key 'PRIMARY'","Data":"Error 1062: Duplicate entry '210507dfe42b2b7dbb4096a8eaec6985bbf420015797' for key 'PRIMARY'"}
+2021-05-08 18:28:33.240 [http-nio-8088-exec-6] INFO  com.tongji.samlsp.service.SAMLSPServlet:66 - samlResponseParam:
+2021-05-08 18:28:33.244 [http-nio-8088-exec-6] INFO  com.tongji.samlsp.service.SAMLSPServlet:67 - samlRelayState:
+2021-05-08 18:28:33.245 [http-nio-8088-exec-6] INFO  com.tongji.samlsp.service.SAMLSPServlet:73 - iamToken::::
+2021-05-08 18:28:33.283 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:28:33.283 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:28:33.285 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:28:33.287 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:28:33.290 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:28:33.291 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:28:33.293 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:28:33.304 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:28:33.307 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:28:33.308 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:28:33.309 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:28:33.310 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:28:33.312 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:28:33.312 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:28:33.314 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:28:33.315 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:28:33.317 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:28:33.318 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:28:33.320 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:28:33.320 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:28:33.322 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:28:33.323 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:28:33.326 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:28:33.327 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:28:33.330 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:28:33.331 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:28:33.333 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:28:33.334 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:28:33.336 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:28:33.336 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:28:33.338 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:28:33.339 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:28:33.341 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:28:33.343 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:28:33.345 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:28:33.345 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:28:33.346 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:28:33.347 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:28:33.351 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:28:33.351 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:28:33.352 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:28:33.353 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:28:33.354 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:28:33.354 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:28:33.356 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:28:33.356 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:28:33.358 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:28:33.358 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:28:33.361 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:28:33.362 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:28:33.365 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:28:33.366 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:28:33.368 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:28:33.368 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:28:33.369 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:28:33.370 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:28:33.371 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:28:33.372 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:28:33.374 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:28:33.375 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:28:33.376 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:198 - Preparing to load IDAttributes
+2021-05-08 18:28:33.376 [http-nio-8088-exec-6] INFO  org.opensaml.xml.XMLConfigurator:200 - IDAttributes load complete
+2021-05-08 18:28:45.256 [http-nio-8088-exec-6] INFO  com.tongji.samlsp.service.SAMLSPServlet:181 - p7StringParamJsonStr:===>{"p7String":"{\"subUserId\":\"210507dfe42b2b7dbb4096a8eaec6985bbf420015797\"}"}
+2021-05-08 18:31:50.909 [http-nio-8088-exec-6] INFO  com.tongji.samlsp.service.SAMLSPServlet:184 - jsonResponse:{"State":400,"Message":"新增帐号失败：Error 1062: Duplicate entry '210507dfe42b2b7dbb4096a8eaec6985bbf420015797' for key 'PRIMARY'","Data":"Error 1062: Duplicate entry '210507dfe42b2b7dbb4096a8eaec6985bbf420015797' for key 'PRIMARY'"}
+2021-05-08 18:31:50.977 [Thread-3] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-08 18:31:58.334 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 17580 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-08 18:31:58.341 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: dev
+2021-05-08 18:31:59.528 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 8088 (http)
+2021-05-08 18:31:59.554 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8088"]
+2021-05-08 18:31:59.564 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2021-05-08 18:31:59.564 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2021-05-08 18:31:59.847 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-05-08 18:31:59.847 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 1452 ms
+2021-05-08 18:32:00.552 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-08 18:32:00.722 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8088"]
+2021-05-08 18:32:00.749 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:202 - Tomcat started on port(s): 8088 (http) with context path ''
+2021-05-08 18:32:00.753 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 3.19 seconds (JVM running for 4.894)
+2021-05-08 18:32:22.217 [http-nio-8088-exec-2] INFO  com.tongji.samlsp.service.SAMLSPServlet:66 - samlResponseParam:
+2021-05-08 18:32:22.218 [http-nio-8088-exec-2] INFO  com.tongji.samlsp.service.SAMLSPServlet:67 - samlRelayState:
+2021-05-08 18:32:22.218 [http-nio-8088-exec-2] INFO  com.tongji.samlsp.service.SAMLSPServlet:73 - iamToken::::
+2021-05-08 18:32:22.685 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:32:22.688 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:32:22.693 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:32:22.699 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:32:22.714 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:32:22.733 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:32:22.738 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:32:22.748 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:32:22.762 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:32:22.786 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:32:22.789 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:32:22.793 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:32:22.798 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:32:22.804 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:32:22.807 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:32:22.811 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:32:22.820 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:32:22.839 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:32:22.844 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:32:22.853 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:32:22.856 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:32:22.865 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:32:22.873 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:32:22.913 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:32:22.918 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:32:22.950 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:32:22.953 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:32:22.972 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:32:22.976 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:32:22.978 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:32:22.982 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:32:23.038 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:32:23.041 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:32:23.058 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:32:23.060 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:32:23.062 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:32:23.065 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:32:23.067 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:32:23.069 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:32:23.073 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:32:23.075 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:32:23.080 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:32:23.083 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:32:23.086 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:32:23.088 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:32:23.094 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:32:23.097 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:32:23.097 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:32:23.100 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:32:23.115 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:32:23.120 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:32:23.172 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:32:23.173 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:32:23.174 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:32:23.179 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:32:23.180 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:32:23.182 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:32:23.197 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:32:23.199 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:32:23.219 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:32:23.219 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:198 - Preparing to load IDAttributes
+2021-05-08 18:32:23.219 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:200 - IDAttributes load complete
+2021-05-08 18:35:11.078 [http-nio-8088-exec-2] INFO  com.tongji.samlsp.service.SAMLSPServlet:181 - p7StringParamJsonStr:===>{"p7String":"{\"subUserId\":\"3333\"}"}
+2021-05-08 18:35:31.524 [http-nio-8088-exec-2] INFO  com.tongji.samlsp.service.SAMLSPServlet:184 - jsonResponse:{"State":200,"Message":"","Data":{"jwt":"HeFKCesPgQUHBBDMuxyoPQaecGNKbEZyeWGTe.2E72W5rdKk5cUbKFtEGyrD5PekauDUJgiczY4LJnogCQVMpsKLUpaSGcjeS1PCUvyzYRvfpwdK7KUJd5Uq2QX8A3KQZNvbn.CFEvRLeC9ojqaKiLLbLTK7xssvfr3uYghpdta7xaeEC1"}}
+2021-05-08 18:36:24.211 [http-nio-8088-exec-3] INFO  com.tongji.samlsp.service.SAMLSPServlet:66 - samlResponseParam:
+2021-05-08 18:36:24.212 [http-nio-8088-exec-3] INFO  com.tongji.samlsp.service.SAMLSPServlet:67 - samlRelayState:
+2021-05-08 18:36:24.213 [http-nio-8088-exec-3] INFO  com.tongji.samlsp.service.SAMLSPServlet:73 - iamToken::::
+2021-05-08 18:36:24.232 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:36:24.233 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:36:24.235 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:36:24.237 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:36:24.241 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:36:24.251 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:36:24.255 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:36:24.257 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:36:24.260 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:36:24.263 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:36:24.268 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:36:24.273 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:36:24.275 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:36:24.276 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:36:24.278 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:36:24.278 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:36:24.281 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:36:24.282 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:36:24.285 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:36:24.285 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:36:24.287 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:36:24.289 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:36:24.291 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:36:24.292 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:36:24.295 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:36:24.296 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:36:24.298 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:36:24.300 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:36:24.301 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:36:24.302 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:36:24.304 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:36:24.306 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:36:24.308 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:36:24.309 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:36:24.315 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:36:24.315 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:36:24.317 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:36:24.317 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:36:24.318 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:36:24.319 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:36:24.320 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:36:24.320 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:36:24.322 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:36:24.322 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:36:24.324 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:36:24.324 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:36:24.326 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:36:24.326 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:36:24.328 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:36:24.329 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:36:24.333 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:36:24.342 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:36:24.344 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:36:24.346 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:36:24.348 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:36:24.350 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:36:24.352 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:36:24.353 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:36:24.355 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:36:24.356 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:36:24.356 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:198 - Preparing to load IDAttributes
+2021-05-08 18:36:24.356 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:200 - IDAttributes load complete
+2021-05-08 18:36:24.357 [http-nio-8088-exec-3] INFO  com.tongji.samlsp.service.SAMLSPServlet:181 - p7StringParamJsonStr:===>{"p7String":"{\"subUserId\":\"3333\"}"}
+2021-05-08 18:37:12.895 [http-nio-8088-exec-3] INFO  com.tongji.samlsp.service.SAMLSPServlet:184 - jsonResponse:{"State":400,"Message":"新增帐号失败：Error 1062: Duplicate entry '3333' for key 'PRIMARY'","Data":"Error 1062: Duplicate entry '3333' for key 'PRIMARY'"}
+2021-05-08 18:56:12.896 [Thread-3] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-08 18:56:19.015 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 19904 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-08 18:56:19.024 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: dev
+2021-05-08 18:56:20.222 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 8088 (http)
+2021-05-08 18:56:20.237 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8088"]
+2021-05-08 18:56:20.246 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2021-05-08 18:56:20.246 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2021-05-08 18:56:20.359 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-05-08 18:56:20.359 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 1292 ms
+2021-05-08 18:56:20.997 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-08 18:56:21.150 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8088"]
+2021-05-08 18:56:21.173 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:202 - Tomcat started on port(s): 8088 (http) with context path ''
+2021-05-08 18:56:21.176 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.979 seconds (JVM running for 4.076)
+2021-05-08 18:56:34.285 [http-nio-8088-exec-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:68 - samlResponseParam:
+2021-05-08 18:56:34.286 [http-nio-8088-exec-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:69 - samlRelayState:
+2021-05-08 18:56:34.286 [http-nio-8088-exec-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:75 - iamToken::::
+2021-05-08 18:56:34.761 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:56:34.777 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:56:34.781 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:56:34.785 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:56:34.799 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:56:34.820 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:56:34.827 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:56:34.842 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:56:34.851 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:56:34.869 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:56:34.872 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:56:34.877 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:56:34.884 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:56:34.890 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:56:34.894 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:56:34.899 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:56:34.909 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:56:34.937 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:56:34.941 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:56:34.952 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:56:34.955 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:56:34.963 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:56:34.972 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:56:35.006 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:56:35.015 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:56:35.045 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:56:35.047 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:56:35.078 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:56:35.080 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:56:35.081 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:56:35.085 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:56:35.116 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:56:35.119 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:56:35.138 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:56:35.140 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:56:35.142 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:56:35.145 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:56:35.146 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:56:35.148 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:56:35.153 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:56:35.155 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:56:35.157 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:56:35.159 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:56:35.161 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:56:35.163 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:56:35.168 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:56:35.171 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:56:35.172 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:56:35.175 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:56:35.205 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:56:35.210 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:56:35.238 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:56:35.240 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:56:35.240 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:56:35.244 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:56:35.246 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:56:35.249 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:56:35.266 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:56:35.268 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:56:35.284 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:56:35.284 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:198 - Preparing to load IDAttributes
+2021-05-08 18:56:35.285 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:200 - IDAttributes load complete
+2021-05-08 18:56:35.491 [http-nio-8088-exec-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:183 - p7StringParamJsonStr:===>{"p7String":"{\"subUserId\":\"3333\"}"}
+2021-05-08 18:56:39.318 [http-nio-8088-exec-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:186 - jsonResponse:{"State":400,"Message":"新增帐号失败：Error 1062: Duplicate entry '3333' for key 'PRIMARY'","Data":"Error 1062: Duplicate entry '3333' for key 'PRIMARY'"}
+2021-05-08 18:57:00.812 [http-nio-8088-exec-3] INFO  com.tongji.samlsp.service.SAMLSPServlet:68 - samlResponseParam:
+2021-05-08 18:57:00.813 [http-nio-8088-exec-3] INFO  com.tongji.samlsp.service.SAMLSPServlet:69 - samlRelayState:
+2021-05-08 18:57:00.813 [http-nio-8088-exec-3] INFO  com.tongji.samlsp.service.SAMLSPServlet:75 - iamToken::::
+2021-05-08 18:57:00.823 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:00.823 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:00.825 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:00.827 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:00.831 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:00.833 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:00.835 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:57:00.837 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:57:00.839 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:00.840 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:00.841 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:57:00.842 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:57:00.845 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:00.846 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:00.847 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:00.848 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:00.851 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:00.852 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:00.856 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:00.856 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:00.858 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:57:00.860 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:57:00.863 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:00.864 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:00.867 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:00.868 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:00.870 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:57:00.872 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:57:00.875 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:00.875 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:00.878 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:00.879 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:00.882 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:57:00.887 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:57:00.889 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:00.890 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:00.892 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:00.892 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:00.894 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:00.894 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:00.895 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:00.896 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:00.897 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:00.897 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:00.899 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:00.899 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:00.902 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:00.902 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:00.905 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:00.906 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:00.911 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:00.922 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:00.925 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:00.925 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:00.927 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:00.938 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:00.941 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:00.942 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:00.944 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:00.945 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:00.945 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:198 - Preparing to load IDAttributes
+2021-05-08 18:57:00.945 [http-nio-8088-exec-3] INFO  org.opensaml.xml.XMLConfigurator:200 - IDAttributes load complete
+2021-05-08 18:57:00.946 [http-nio-8088-exec-3] INFO  com.tongji.samlsp.service.SAMLSPServlet:183 - p7StringParamJsonStr:===>{"p7String":"{\"subUserId\":\"3333\"}"}
+2021-05-08 18:57:13.236 [http-nio-8088-exec-3] INFO  com.tongji.samlsp.service.SAMLSPServlet:186 - jsonResponse:{"State":400,"Message":"新增帐号失败：Error 1062: Duplicate entry '3333' for key 'PRIMARY'","Data":"Error 1062: Duplicate entry '3333' for key 'PRIMARY'"}
+2021-05-08 18:57:38.683 [http-nio-8088-exec-5] INFO  com.tongji.samlsp.service.SAMLSPServlet:68 - samlResponseParam:
+2021-05-08 18:57:38.683 [http-nio-8088-exec-5] INFO  com.tongji.samlsp.service.SAMLSPServlet:69 - samlRelayState:
+2021-05-08 18:57:38.684 [http-nio-8088-exec-5] INFO  com.tongji.samlsp.service.SAMLSPServlet:75 - iamToken::::
+2021-05-08 18:57:38.691 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:38.691 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:38.693 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:38.695 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:38.697 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:38.698 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:38.700 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:57:38.701 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:57:38.703 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:38.704 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:38.706 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:57:38.707 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:57:38.709 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:38.710 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:38.712 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:38.712 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:38.718 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:38.718 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:38.720 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:38.721 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:38.722 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:57:38.724 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:57:38.727 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:38.728 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:38.731 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:38.732 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:38.734 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:57:38.735 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:57:38.736 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:38.737 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:38.739 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:38.740 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:38.744 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:57:38.754 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:57:38.759 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:38.760 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:38.762 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:38.762 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:38.764 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:38.766 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:38.770 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:38.771 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:38.775 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:38.775 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:38.777 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:38.777 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:38.779 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:38.779 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:38.782 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:38.784 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:38.790 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:38.791 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:38.793 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:38.793 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:38.795 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:38.795 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:38.797 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:38.797 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:38.802 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:57:38.804 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:57:38.805 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:198 - Preparing to load IDAttributes
+2021-05-08 18:57:38.805 [http-nio-8088-exec-5] INFO  org.opensaml.xml.XMLConfigurator:200 - IDAttributes load complete
+2021-05-08 18:57:38.809 [http-nio-8088-exec-5] INFO  com.tongji.samlsp.service.SAMLSPServlet:183 - p7StringParamJsonStr:===>{"p7String":"{\"subUserId\":\"3333\"}"}
+2021-05-08 18:57:38.842 [http-nio-8088-exec-5] INFO  com.tongji.samlsp.service.SAMLSPServlet:186 - jsonResponse:{"State":400,"Message":"新增帐号失败：Error 1062: Duplicate entry '3333' for key 'PRIMARY'","Data":"Error 1062: Duplicate entry '3333' for key 'PRIMARY'"}
+2021-05-08 18:58:00.121 [http-nio-8088-exec-7] INFO  com.tongji.samlsp.service.SAMLSPServlet:68 - samlResponseParam:
+2021-05-08 18:58:00.122 [http-nio-8088-exec-7] INFO  com.tongji.samlsp.service.SAMLSPServlet:69 - samlRelayState:
+2021-05-08 18:58:00.122 [http-nio-8088-exec-7] INFO  com.tongji.samlsp.service.SAMLSPServlet:75 - iamToken::::
+2021-05-08 18:58:00.137 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:00.138 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:00.140 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:00.142 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:00.145 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:00.148 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:00.150 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:58:00.152 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:58:00.155 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:00.156 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:00.159 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:58:00.161 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:58:00.164 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:00.165 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:00.166 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:00.168 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:00.171 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:00.172 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:00.175 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:00.176 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:00.177 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:58:00.180 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:58:00.182 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:00.183 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:00.188 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:00.190 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:00.193 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:58:00.194 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:58:00.196 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:00.196 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:00.198 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:00.200 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:00.204 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:58:00.205 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:58:00.207 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:00.208 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:00.212 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:00.212 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:00.216 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:00.218 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:00.221 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:00.221 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:00.222 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:00.223 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:00.225 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:00.226 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:00.227 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:00.228 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:00.229 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:00.230 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:00.235 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:00.247 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:00.248 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:00.249 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:00.252 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:00.253 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:00.255 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:00.256 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:00.259 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:00.260 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:00.260 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:198 - Preparing to load IDAttributes
+2021-05-08 18:58:00.260 [http-nio-8088-exec-7] INFO  org.opensaml.xml.XMLConfigurator:200 - IDAttributes load complete
+2021-05-08 18:58:00.261 [http-nio-8088-exec-7] INFO  com.tongji.samlsp.service.SAMLSPServlet:183 - p7StringParamJsonStr:===>{"p7String":"{\"subUserId\":\"3333\"}"}
+2021-05-08 18:58:00.303 [http-nio-8088-exec-7] INFO  com.tongji.samlsp.service.SAMLSPServlet:186 - jsonResponse:{"State":400,"Message":"新增帐号失败：Error 1062: Duplicate entry '3333' for key 'PRIMARY'","Data":"Error 1062: Duplicate entry '3333' for key 'PRIMARY'"}
+2021-05-08 18:58:33.112 [http-nio-8088-exec-9] INFO  com.tongji.samlsp.service.SAMLSPServlet:68 - samlResponseParam:
+2021-05-08 18:58:33.112 [http-nio-8088-exec-9] INFO  com.tongji.samlsp.service.SAMLSPServlet:69 - samlRelayState:
+2021-05-08 18:58:33.113 [http-nio-8088-exec-9] INFO  com.tongji.samlsp.service.SAMLSPServlet:75 - iamToken::::
+2021-05-08 18:58:33.122 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:33.123 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:33.125 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:33.125 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:33.132 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:33.133 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:33.136 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:58:33.137 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:58:33.140 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:33.141 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:33.143 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:58:33.145 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:58:33.155 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:33.156 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:33.158 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:33.158 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:33.161 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:33.164 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:33.171 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:33.171 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:33.173 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:58:33.177 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:58:33.183 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:33.184 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:33.189 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:33.190 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:33.191 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:58:33.193 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:58:33.194 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:33.194 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:33.200 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:33.202 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:33.205 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:58:33.206 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:58:33.208 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:33.208 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:33.209 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:33.209 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:33.211 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:33.211 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:33.212 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:33.214 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:33.219 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:33.219 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:33.221 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:33.221 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:33.223 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:33.223 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:33.225 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:33.225 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:33.229 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:33.231 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:33.235 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:33.236 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:33.238 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:33.238 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:33.240 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:33.240 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:33.242 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:33.242 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:33.242 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:198 - Preparing to load IDAttributes
+2021-05-08 18:58:33.242 [http-nio-8088-exec-9] INFO  org.opensaml.xml.XMLConfigurator:200 - IDAttributes load complete
+2021-05-08 18:58:33.243 [http-nio-8088-exec-9] INFO  com.tongji.samlsp.service.SAMLSPServlet:183 - p7StringParamJsonStr:===>{"p7String":"{\"subUserId\":\"3333\"}"}
+2021-05-08 18:58:33.295 [http-nio-8088-exec-9] INFO  com.tongji.samlsp.service.SAMLSPServlet:186 - jsonResponse:{"State":400,"Message":"新增帐号失败：Error 1062: Duplicate entry '3333' for key 'PRIMARY'","Data":"Error 1062: Duplicate entry '3333' for key 'PRIMARY'"}
+2021-05-08 18:58:56.747 [http-nio-8088-exec-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:68 - samlResponseParam:
+2021-05-08 18:58:56.748 [http-nio-8088-exec-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:69 - samlRelayState:
+2021-05-08 18:58:56.748 [http-nio-8088-exec-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:75 - iamToken::::
+2021-05-08 18:58:56.762 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:56.763 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:56.766 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:56.782 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:56.788 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:56.790 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:56.792 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:58:56.793 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:58:56.796 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:56.797 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:56.798 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:58:56.799 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:58:56.803 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:56.804 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:56.806 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:56.806 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:56.809 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:56.810 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:56.812 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:56.812 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:56.814 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:58:56.815 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:58:56.820 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:56.822 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:56.825 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:56.826 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:56.828 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:58:56.830 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:58:56.831 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:56.831 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:56.836 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:56.837 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:56.840 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 18:58:56.843 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 18:58:56.844 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:56.845 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:56.846 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:56.846 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:56.847 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:56.847 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:56.849 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:56.849 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:56.852 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:56.853 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:56.855 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:56.856 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:56.861 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:56.862 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:56.864 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:56.864 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:56.870 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:56.872 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:56.875 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:56.875 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:56.876 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:56.877 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:56.878 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:56.879 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:56.880 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 18:58:56.881 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 18:58:56.881 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:198 - Preparing to load IDAttributes
+2021-05-08 18:58:56.881 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:200 - IDAttributes load complete
+2021-05-08 18:58:56.882 [http-nio-8088-exec-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:183 - p7StringParamJsonStr:===>{"p7String":"{\"subUserId\":\"3333\"}"}
+2021-05-08 18:58:56.913 [http-nio-8088-exec-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:186 - jsonResponse:{"State":400,"Message":"新增帐号失败：Error 1062: Duplicate entry '3333' for key 'PRIMARY'","Data":"Error 1062: Duplicate entry '3333' for key 'PRIMARY'"}
+2021-05-08 19:00:37.213 [Thread-3] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-08 19:00:42.153 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 6364 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-08 19:00:42.158 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: dev
+2021-05-08 19:00:43.052 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 8088 (http)
+2021-05-08 19:00:43.096 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8088"]
+2021-05-08 19:00:43.105 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2021-05-08 19:00:43.105 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2021-05-08 19:00:43.201 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-05-08 19:00:43.202 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 1004 ms
+2021-05-08 19:00:43.734 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-08 19:00:43.887 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8088"]
+2021-05-08 19:00:43.913 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:202 - Tomcat started on port(s): 8088 (http) with context path ''
+2021-05-08 19:00:43.916 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.302 seconds (JVM running for 3.167)
+2021-05-08 19:00:48.887 [http-nio-8088-exec-2] INFO  com.tongji.samlsp.service.SAMLSPServlet:68 - samlResponseParam:
+2021-05-08 19:00:48.888 [http-nio-8088-exec-2] INFO  com.tongji.samlsp.service.SAMLSPServlet:69 - samlRelayState:
+2021-05-08 19:00:48.889 [http-nio-8088-exec-2] INFO  com.tongji.samlsp.service.SAMLSPServlet:75 - iamToken::::
+2021-05-08 19:00:49.298 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 19:00:49.307 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 19:00:49.312 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 19:00:49.318 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 19:00:49.337 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 19:00:49.376 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 19:00:49.381 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 19:00:49.394 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 19:00:49.404 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 19:00:49.424 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 19:00:49.427 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 19:00:49.432 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 19:00:49.438 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 19:00:49.443 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 19:00:49.445 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 19:00:49.451 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 19:00:49.461 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 19:00:49.482 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 19:00:49.488 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 19:00:49.498 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 19:00:49.501 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 19:00:49.524 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 19:00:49.538 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 19:00:49.566 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 19:00:49.574 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 19:00:49.611 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 19:00:49.614 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 19:00:49.632 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 19:00:49.634 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 19:00:49.636 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 19:00:49.640 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 19:00:49.687 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 19:00:49.690 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-08 19:00:49.704 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-08 19:00:49.706 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 19:00:49.707 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 19:00:49.708 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 19:00:49.709 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 19:00:49.710 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 19:00:49.714 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 19:00:49.717 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 19:00:49.720 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 19:00:49.722 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 19:00:49.725 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 19:00:49.726 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 19:00:49.731 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 19:00:49.735 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 19:00:49.736 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 19:00:49.742 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 19:00:49.760 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 19:00:49.765 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 19:00:49.802 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 19:00:49.809 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 19:00:49.809 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 19:00:49.812 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 19:00:49.813 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 19:00:49.815 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 19:00:49.836 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 19:00:49.839 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-08 19:00:49.859 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-08 19:00:49.860 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:198 - Preparing to load IDAttributes
+2021-05-08 19:00:49.860 [http-nio-8088-exec-2] INFO  org.opensaml.xml.XMLConfigurator:200 - IDAttributes load complete
+2021-05-08 19:00:49.930 [http-nio-8088-exec-2] INFO  com.tongji.samlsp.service.SAMLSPServlet:183 - p7StringParamJsonStr:===>{"p7String":"{\"subUserId\":\"3333\"}"}
+2021-05-08 19:00:50.022 [http-nio-8088-exec-2] INFO  com.tongji.samlsp.service.SAMLSPServlet:186 - jsonResponse:{"State":400,"Message":"新增帐号失败：Error 1062: Duplicate entry '3333' for key 'PRIMARY'","Data":"Error 1062: Duplicate entry '3333' for key 'PRIMARY'"}
+2021-05-08 19:00:55.760 [http-nio-8088-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-08 19:00:55.761 [http-nio-8088-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-08 19:00:55.774 [http-nio-8088-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 13 ms

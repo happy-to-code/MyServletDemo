@@ -1,0 +1,11 @@
+server:
+  port: 9088
+
+file:
+  path: "/root/saml/saml-sp.properties"
+
+webcheck:
+  url: "http://127.0.0.1:59095/mgmt-b/account/loginssobysy"
+
+wsdl:
+  url: "http://10.240.41.10:31201/iamgate/services/IamgateWebService?wsdl"

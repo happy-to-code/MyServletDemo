@@ -1,0 +1,363 @@
+2021-05-12 10:51:37.295 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 7308 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-12 10:51:37.302 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: dev
+2021-05-12 10:51:39.942 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 8088 (http)
+2021-05-12 10:51:39.957 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8088"]
+2021-05-12 10:51:39.972 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2021-05-12 10:51:39.973 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2021-05-12 10:51:40.560 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-05-12 10:51:40.561 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 3162 ms
+2021-05-12 10:51:41.727 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-12 10:51:41.937 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8088"]
+2021-05-12 10:51:41.964 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:202 - Tomcat started on port(s): 8088 (http) with context path ''
+2021-05-12 10:51:41.967 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 7.335 seconds (JVM running for 11.902)
+2021-05-12 10:51:45.820 [http-nio-8088-exec-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:69 - samlResponseParam:
+2021-05-12 10:51:45.821 [http-nio-8088-exec-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:70 - samlRelayState:
+2021-05-12 10:51:45.822 [http-nio-8088-exec-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:76 - iamToken::::
+2021-05-12 10:51:47.309 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 10:51:47.316 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 10:51:47.320 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 10:51:47.325 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 10:51:47.340 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 10:51:47.377 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 10:51:47.384 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-12 10:51:47.401 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-12 10:51:47.412 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 10:51:47.434 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 10:51:47.437 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-12 10:51:47.442 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-12 10:51:47.450 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 10:51:47.458 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 10:51:47.462 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 10:51:47.468 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 10:51:47.490 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 10:51:47.525 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 10:51:47.531 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 10:51:47.545 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 10:51:47.549 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-12 10:51:47.574 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-12 10:51:47.586 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 10:51:47.631 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 10:51:47.636 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 10:51:47.664 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 10:51:47.668 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-12 10:51:47.686 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-12 10:51:47.688 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 10:51:47.689 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 10:51:47.692 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 10:51:47.749 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 10:51:47.753 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-12 10:51:47.775 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-12 10:51:47.778 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 10:51:47.780 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 10:51:47.789 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 10:51:47.791 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 10:51:47.796 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 10:51:47.803 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 10:51:47.805 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 10:51:47.808 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 10:51:47.811 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 10:51:47.818 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 10:51:47.821 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 10:51:47.827 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 10:51:47.831 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 10:51:47.832 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 10:51:47.834 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 10:51:47.851 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 10:51:47.855 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 10:51:47.905 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 10:51:47.907 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 10:51:47.908 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 10:51:47.909 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 10:51:47.910 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 10:51:47.912 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 10:51:47.928 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 10:51:47.932 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 10:51:47.949 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 10:51:47.950 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:198 - Preparing to load IDAttributes
+2021-05-12 10:51:47.950 [http-nio-8088-exec-1] INFO  org.opensaml.xml.XMLConfigurator:200 - IDAttributes load complete
+2021-05-12 14:02:41.328 [http-nio-8088-exec-4] INFO  com.tongji.samlsp.service.SAMLSPServlet:69 - samlResponseParam:
+2021-05-12 14:02:41.589 [http-nio-8088-exec-4] INFO  com.tongji.samlsp.service.SAMLSPServlet:70 - samlRelayState:
+2021-05-12 14:02:41.620 [http-nio-8088-exec-4] INFO  com.tongji.samlsp.service.SAMLSPServlet:76 - iamToken::::
+2021-05-12 14:02:42.166 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:02:42.176 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:02:42.179 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:02:42.188 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:02:42.193 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:02:42.225 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:02:42.242 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-12 14:02:42.244 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-12 14:02:42.247 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:02:42.248 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:02:42.268 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-12 14:02:42.270 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-12 14:02:42.273 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:02:42.274 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:02:42.275 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:02:42.279 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:02:42.283 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:02:42.289 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:02:42.291 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:02:42.291 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:02:42.293 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-12 14:02:42.301 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-12 14:02:42.322 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:02:42.324 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:02:42.330 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:02:42.337 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:02:42.340 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-12 14:02:42.347 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-12 14:02:42.368 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:02:42.369 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:02:42.372 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:02:42.374 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:02:42.377 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-12 14:02:42.380 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-12 14:02:42.383 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:02:42.383 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:02:42.385 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:02:42.385 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:02:42.387 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:02:42.388 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:02:42.390 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:02:42.391 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:02:42.436 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:02:42.436 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:02:42.438 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:02:42.438 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:02:42.440 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:02:42.440 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:02:42.443 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:02:42.444 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:02:42.466 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:02:42.475 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:02:42.477 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:02:42.477 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:02:42.479 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:02:42.497 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:02:42.499 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:02:42.499 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:02:42.502 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:02:42.502 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:02:42.502 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:198 - Preparing to load IDAttributes
+2021-05-12 14:02:42.503 [http-nio-8088-exec-4] INFO  org.opensaml.xml.XMLConfigurator:200 - IDAttributes load complete
+2021-05-12 14:05:46.103 [http-nio-8088-exec-8] INFO  com.tongji.samlsp.service.SAMLSPServlet:69 - samlResponseParam:
+2021-05-12 14:05:46.105 [http-nio-8088-exec-8] INFO  com.tongji.samlsp.service.SAMLSPServlet:70 - samlRelayState:
+2021-05-12 14:05:46.106 [http-nio-8088-exec-8] INFO  com.tongji.samlsp.service.SAMLSPServlet:76 - iamToken::::
+2021-05-12 14:05:46.274 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:05:46.275 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:05:46.282 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:05:46.290 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:05:46.295 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:05:46.297 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:05:46.301 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-12 14:05:46.305 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-12 14:05:46.310 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:05:46.312 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:05:46.319 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-12 14:05:46.321 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-12 14:05:46.324 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:05:46.326 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:05:46.328 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:05:46.329 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:05:46.334 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:05:46.335 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:05:46.337 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:05:46.338 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:05:46.393 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-12 14:05:46.394 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-12 14:05:46.397 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:05:46.399 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:05:46.402 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:05:46.403 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:05:46.405 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-12 14:05:46.407 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-12 14:05:46.408 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:05:46.409 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:05:46.411 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:05:46.412 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:05:46.415 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:189 - Preparing to load ValidatorSuites
+2021-05-12 14:05:46.417 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:191 - ValidatorSuites load complete
+2021-05-12 14:05:46.418 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:05:46.419 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:05:46.420 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:05:46.420 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:05:46.425 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:05:46.425 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:05:46.427 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:05:46.427 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:05:46.429 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:05:46.429 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:05:46.431 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:05:46.431 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:05:46.434 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:05:46.434 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:05:46.436 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:05:46.437 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:05:46.440 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:05:46.441 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:05:46.443 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:05:46.443 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:05:46.445 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:05:46.445 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:05:46.448 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:05:46.449 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:05:46.451 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:180 - Preparing to load ObjectProviders
+2021-05-12 14:05:46.452 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:182 - ObjectProviders load complete
+2021-05-12 14:05:46.452 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:198 - Preparing to load IDAttributes
+2021-05-12 14:05:46.452 [http-nio-8088-exec-8] INFO  org.opensaml.xml.XMLConfigurator:200 - IDAttributes load complete
+2021-05-12 14:52:59.238 [Thread-3] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-12 14:53:06.882 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 15432 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-12 14:53:06.885 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-12 14:53:07.572 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'SAMLSPServlet' defined in null: Cannot register bean definition [Root bean: class [org.springframework.boot.web.servlet.ServletRegistrationBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] for bean 'SAMLSPServlet': There is already [Generic bean: class [com.tongji.samlsp.service.SAMLSPServlet]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [E:\Servlet\SSOProject\target\classes\com\tongji\samlsp\service\SAMLSPServlet.class]] bound.
+2021-05-12 14:53:07.578 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-05-12 14:53:07.581 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'SAMLSPServlet', defined in null, could not be registered. A bean with that name has already been defined in file [E:\Servlet\SSOProject\target\classes\com\tongji\samlsp\service\SAMLSPServlet.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2021-05-12 14:54:02.845 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 16308 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-12 14:54:02.848 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-12 14:54:03.801 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 9088 (http)
+2021-05-12 14:54:03.848 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-9088"]
+2021-05-12 14:54:03.858 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2021-05-12 14:54:03.859 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2021-05-12 14:54:03.955 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-05-12 14:54:03.956 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 1060 ms
+2021-05-12 14:54:04.570 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-12 14:54:04.773 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-9088"]
+2021-05-12 14:54:04.803 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:202 - Tomcat started on port(s): 9088 (http) with context path ''
+2021-05-12 14:54:04.806 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.55 seconds (JVM running for 3.318)
+2021-05-12 14:54:25.392 [Thread-3] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-12 14:54:30.244 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 1428 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-12 14:54:30.252 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-12 14:54:31.171 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 9088 (http)
+2021-05-12 14:54:31.183 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-9088"]
+2021-05-12 14:54:31.192 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2021-05-12 14:54:31.193 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2021-05-12 14:54:31.307 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-05-12 14:54:31.307 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 1013 ms
+2021-05-12 14:54:31.831 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-12 14:54:31.996 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-9088"]
+2021-05-12 14:54:32.025 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:202 - Tomcat started on port(s): 9088 (http) with context path ''
+2021-05-12 14:54:32.029 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.364 seconds (JVM running for 3.244)
+2021-05-12 14:55:14.102 [http-nio-9088-exec-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:72 - ------------1----------------
+2021-05-12 14:55:14.104 [http-nio-9088-exec-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:74 - req:org.apache.catalina.connector.RequestFacade@8acfc1
+2021-05-12 14:55:14.105 [http-nio-9088-exec-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:75 - response:org.apache.catalina.connector.ResponseFacade@fb6c60
+2021-05-12 14:55:14.105 [http-nio-9088-exec-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:76 - -------------2---------------
+2021-05-12 14:55:14.106 [http-nio-9088-exec-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:77 - samlResponseParam:null
+2021-05-12 14:55:14.107 [http-nio-9088-exec-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:78 - samlRelayState:null
+2021-05-12 14:55:14.108 [http-nio-9088-exec-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:82 - samlPropertiesPath = /root/saml/saml-sp.properties
+2021-05-12 14:55:14.109 [http-nio-9088-exec-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:85 - iamToken::::null
+2021-05-12 14:55:14.495 [http-nio-9088-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-12 14:55:14.496 [http-nio-9088-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-12 14:55:14.506 [http-nio-9088-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 10 ms
+2021-05-12 15:47:30.358 [Thread-3] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-12 15:47:42.321 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 12948 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-12 15:47:42.325 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-12 15:47:43.353 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 9088 (http)
+2021-05-12 15:47:43.369 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-9088"]
+2021-05-12 15:47:43.379 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2021-05-12 15:47:43.379 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2021-05-12 15:47:43.497 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-05-12 15:47:43.498 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 1128 ms
+2021-05-12 15:47:44.145 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-12 15:47:44.304 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-9088"]
+2021-05-12 15:47:44.332 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:202 - Tomcat started on port(s): 9088 (http) with context path ''
+2021-05-12 15:47:44.335 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.651 seconds (JVM running for 3.723)
+2021-05-12 15:48:00.729 [http-nio-9088-exec-2] INFO  com.tongji.samlsp.service.SAMLSPServlet:72 - ------------1----------------
+2021-05-12 15:48:00.732 [http-nio-9088-exec-2] INFO  com.tongji.samlsp.service.SAMLSPServlet:74 - req:org.apache.catalina.connector.RequestFacade@d06880
+2021-05-12 15:48:00.733 [http-nio-9088-exec-2] INFO  com.tongji.samlsp.service.SAMLSPServlet:75 - response:org.apache.catalina.connector.ResponseFacade@1f0ed0f
+2021-05-12 15:48:00.734 [http-nio-9088-exec-2] INFO  com.tongji.samlsp.service.SAMLSPServlet:76 - -------------2---------------
+2021-05-12 15:48:00.735 [http-nio-9088-exec-2] INFO  com.tongji.samlsp.service.SAMLSPServlet:77 - samlResponseParam:null
+2021-05-12 15:48:00.736 [http-nio-9088-exec-2] INFO  com.tongji.samlsp.service.SAMLSPServlet:78 - samlRelayState:null
+2021-05-12 15:48:00.737 [http-nio-9088-exec-2] INFO  com.tongji.samlsp.service.SAMLSPServlet:82 - samlPropertiesPath = /root/saml/saml-sp.properties
+2021-05-12 15:48:00.738 [http-nio-9088-exec-2] INFO  com.tongji.samlsp.service.SAMLSPServlet:85 - iamToken::::null
+2021-05-12 16:13:34.939 [Thread-3] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-12 16:13:45.166 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 3504 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-12 16:13:45.174 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-12 16:13:46.407 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 9088 (http)
+2021-05-12 16:13:46.422 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-9088"]
+2021-05-12 16:13:46.431 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2021-05-12 16:13:46.432 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2021-05-12 16:13:46.601 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-05-12 16:13:46.601 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 1380 ms
+2021-05-12 16:13:47.402 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-12 16:13:47.570 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-9088"]
+2021-05-12 16:13:47.602 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:202 - Tomcat started on port(s): 9088 (http) with context path ''
+2021-05-12 16:13:47.605 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 3.223 seconds (JVM running for 5.041)
+2021-05-12 16:13:52.204 [http-nio-9088-exec-2] INFO  com.tongji.samlsp.service.SAMLSPServlet:54 - ------>%s
+2021-05-12 16:13:57.118 [http-nio-9088-exec-2] INFO  com.tongji.samlsp.service.SAMLSPServlet:73 - ------------1----------------
+2021-05-12 16:13:57.119 [http-nio-9088-exec-2] INFO  com.tongji.samlsp.service.SAMLSPServlet:75 - req:org.apache.catalina.connector.RequestFacade@187d2b9
+2021-05-12 16:13:57.120 [http-nio-9088-exec-2] INFO  com.tongji.samlsp.service.SAMLSPServlet:76 - response:org.apache.catalina.connector.ResponseFacade@e6a093
+2021-05-12 16:13:57.121 [http-nio-9088-exec-2] INFO  com.tongji.samlsp.service.SAMLSPServlet:77 - -------------2---------------
+2021-05-12 16:13:57.122 [http-nio-9088-exec-2] INFO  com.tongji.samlsp.service.SAMLSPServlet:78 - samlResponseParam:null
+2021-05-12 16:13:57.123 [http-nio-9088-exec-2] INFO  com.tongji.samlsp.service.SAMLSPServlet:79 - samlRelayState:null
+2021-05-12 16:13:57.124 [http-nio-9088-exec-2] INFO  com.tongji.samlsp.service.SAMLSPServlet:83 - samlPropertiesPath = /root/saml/saml-sp.properties
+2021-05-12 16:13:57.124 [http-nio-9088-exec-2] INFO  com.tongji.samlsp.service.SAMLSPServlet:86 - iamToken::::null
+2021-05-12 16:15:45.889 [Thread-3] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-12 16:15:50.467 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 16860 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-12 16:15:50.474 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-12 16:15:51.386 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 9088 (http)
+2021-05-12 16:15:51.429 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-9088"]
+2021-05-12 16:15:51.437 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2021-05-12 16:15:51.437 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2021-05-12 16:15:51.537 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-05-12 16:15:51.538 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 1021 ms
+2021-05-12 16:15:52.082 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-12 16:15:52.239 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-9088"]
+2021-05-12 16:15:52.261 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:202 - Tomcat started on port(s): 9088 (http) with context path ''
+2021-05-12 16:15:52.264 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.338 seconds (JVM running for 3.089)
+2021-05-12 16:15:57.041 [http-nio-9088-exec-3] INFO  com.tongji.samlsp.service.SAMLSPServlet:54 - ------>[jjjhahha]
+2021-05-12 16:15:57.043 [http-nio-9088-exec-3] INFO  com.tongji.samlsp.service.SAMLSPServlet:73 - ------------1----------------
+2021-05-12 16:15:57.043 [http-nio-9088-exec-3] INFO  com.tongji.samlsp.service.SAMLSPServlet:75 - req:org.apache.catalina.connector.RequestFacade@7df592
+2021-05-12 16:15:57.043 [http-nio-9088-exec-3] INFO  com.tongji.samlsp.service.SAMLSPServlet:76 - response:org.apache.catalina.connector.ResponseFacade@18f48b2
+2021-05-12 16:15:57.044 [http-nio-9088-exec-3] INFO  com.tongji.samlsp.service.SAMLSPServlet:77 - -------------2---------------
+2021-05-12 16:15:57.044 [http-nio-9088-exec-3] INFO  com.tongji.samlsp.service.SAMLSPServlet:78 - samlResponseParam:null
+2021-05-12 16:15:57.044 [http-nio-9088-exec-3] INFO  com.tongji.samlsp.service.SAMLSPServlet:79 - samlRelayState:null
+2021-05-12 16:15:57.046 [http-nio-9088-exec-3] INFO  com.tongji.samlsp.service.SAMLSPServlet:83 - samlPropertiesPath = /root/saml/saml-sp.properties
+2021-05-12 16:15:57.047 [http-nio-9088-exec-3] INFO  com.tongji.samlsp.service.SAMLSPServlet:86 - iamToken::::null
+2021-05-12 16:23:25.903 [Thread-3] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-12 16:23:30.758 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 7604 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-12 16:23:30.765 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-12 16:23:31.752 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 9088 (http)
+2021-05-12 16:23:31.765 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-9088"]
+2021-05-12 16:23:31.774 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2021-05-12 16:23:31.775 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2021-05-12 16:23:31.899 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-05-12 16:23:31.900 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 1092 ms
+2021-05-12 16:23:32.468 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-12 16:23:32.641 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-9088"]
+2021-05-12 16:23:32.665 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:202 - Tomcat started on port(s): 9088 (http) with context path ''
+2021-05-12 16:23:32.668 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.5 seconds (JVM running for 3.237)
+2021-05-12 16:23:45.020 [http-nio-9088-exec-2] INFO  com.tongji.samlsp.service.SAMLSPServlet:70 - samlResponseParam:[null]
+2021-05-12 16:23:45.021 [http-nio-9088-exec-2] INFO  com.tongji.samlsp.service.SAMLSPServlet:71 - samlRelayState:[null]
+2021-05-12 16:23:45.022 [http-nio-9088-exec-2] INFO  com.tongji.samlsp.service.SAMLSPServlet:74 - samlPropertiesPath = [/root/saml/saml-sp.properties]
+2021-05-12 16:23:45.022 [http-nio-9088-exec-2] INFO  com.tongji.samlsp.service.SAMLSPServlet:77 - iamToken::::[null]
+2021-05-12 16:26:10.880 [http-nio-9088-exec-4] INFO  com.tongji.samlsp.service.SAMLSPServlet:70 - samlResponseParam:[ddd]
+2021-05-12 16:26:10.880 [http-nio-9088-exec-4] INFO  com.tongji.samlsp.service.SAMLSPServlet:71 - samlRelayState:[llllss]
+2021-05-12 16:26:10.881 [http-nio-9088-exec-4] INFO  com.tongji.samlsp.service.SAMLSPServlet:74 - samlPropertiesPath = [/root/saml/saml-sp.properties]
+2021-05-12 16:26:10.881 [http-nio-9088-exec-4] INFO  com.tongji.samlsp.service.SAMLSPServlet:77 - iamToken::::[null]
+2021-05-12 16:47:40.887 [Thread-3] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-12 17:05:40.562 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 17120 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-12 17:05:40.579 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-12 17:05:41.695 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 9088 (http)
+2021-05-12 17:05:41.706 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-9088"]
+2021-05-12 17:05:41.714 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2021-05-12 17:05:41.714 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2021-05-12 17:05:41.803 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-05-12 17:05:41.803 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 1157 ms
+2021-05-12 17:05:42.644 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-12 17:05:42.810 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-9088"]
+2021-05-12 17:05:42.830 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:202 - Tomcat started on port(s): 9088 (http) with context path ''
+2021-05-12 17:05:42.832 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.943 seconds (JVM running for 3.794)

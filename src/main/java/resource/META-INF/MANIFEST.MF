@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Main-Class: com.tongji.samlsp.ApplicationRun
+Class-Path: spring-core-5.1.9.RELEASE.jar log4j-1.2.14.jar spring-boot-s
+ tarter-2.1.7.RELEASE.jar logback-core-1.2.3.jar tomcat-embed-websocket-
+ 9.0.22.jar spring-boot-starter-logging-2.1.7.RELEASE.jar tomcat-embed-c
+ ore-9.0.22.jar cxf-rt-wsdl-3.1.12.jar commons-collections-3.1.jar jul-t
+ o-slf4j-1.7.26.jar commons-httpclient-3.1.jar okio-1.11.0.jar xercesImp
+ l-2.9.1.jar spring-boot-2.1.7.RELEASE.jar cxf-rt-ws-addr-3.1.12.jar cxf
+ -rt-frontend-jaxws-3.1.12.jar classmate-1.3.4.jar javax.annotation-api-
+ 1.3.2.jar spring-boot-starter-web-2.1.7.RELEASE.jar velocity-1.5.jar sp
+ ring-jcl-5.1.9.RELEASE.jar spring-boot-starter-tomcat-2.1.7.RELEASE.jar
+  cxf-rt-ws-policy-3.1.12.jar xml-apis-1.3.04.jar jackson-module-paramet
+ er-names-2.9.9.jar neethi-3.0.3.jar wsdl4j-1.6.3.jar xml-resolver-1.2.j
+ ar jaxb-core-2.2.11.jar stax2-api-3.1.4.jar spring-boot-starter-json-2.
+ 1.7.RELEASE.jar fastjson-1.2.12.jar xmlschema-core-2.2.2.jar jackson-co
+ re-2.9.9.jar cxf-rt-bindings-soap-3.1.12.jar okhttp-3.6.0.jar openws-1.
+ 3.0.jar jaxb-impl-2.2.11.jar jackson-datatype-jsr310-2.9.9.jar hibernat
+ e-validator-6.0.17.Final.jar xml-apis-2.9.1.jar serializer-2.7.1.jar sp
+ ring-aop-5.1.9.RELEASE.jar spring-context-5.1.9.RELEASE.jar org.apache.
+ servicemix.bundles.xalan-2.7.1_1.jar jackson-datatype-jdk8-2.9.9.jar sp
+ ring-boot-autoconfigure-2.1.7.RELEASE.jar jackson-annotations-2.9.0.jar
+  jackson-databind-2.9.9.jar cxf-rt-bindings-xml-3.1.12.jar am5-saml.jar
+  commons-collections-3.1.jar commons-httpclient-3.1.jar commons-lang-2.
+ 1.jar log4j-1.2.14.jar opensaml-2.3.1.jar openws-1.3.0.jar velocity-1.5
+ .jar xercesImpl-2.9.1.jar xml-apis-2.9.1.jar xmlsec-1.4.4.jar xmltoolin
+ g-1.2.1.jar log4j-api-2.11.2.jar xmltooling-1.2.1.jar cxf-rt-databindin
+ g-jaxb-3.1.12.jar logback-classic-1.2.3.jar spring-beans-5.1.9.RELEASE.
+ jar asm-5.0.4.jar xmlsec-1.4.4.jar validation-api-2.0.1.Final.jar sprin
+ g-webmvc-5.1.9.RELEASE.jar jboss-logging-3.3.2.Final.jar opensaml-2.3.1
+ .jar cxf-rt-frontend-simple-3.1.12.jar cxf-rt-transports-http-3.1.12.ja
+ r snakeyaml-1.23.jar am5-saml.jar spring-expression-5.1.9.RELEASE.jar c
+ xf-core-3.1.12.jar spring-web-5.1.9.RELEASE.jar log4j-to-slf4j-2.11.2.j
+ ar tomcat-embed-el-9.0.22.jar joda-time-2.3.jar slf4j-api-1.7.25.jar wo
+ odstox-core-asl-4.4.1.jar commons-lang-2.1.jar commons-lang3-3.10.jar
+

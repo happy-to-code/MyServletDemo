@@ -1,0 +1,12 @@
+2021-05-06 14:22:12.117 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 18040 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-06 14:22:12.119 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-06 14:22:13.160 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 9088 (http)
+2021-05-06 14:22:13.174 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-9088"]
+2021-05-06 14:22:13.183 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2021-05-06 14:22:13.183 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2021-05-06 14:22:13.314 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-05-06 14:22:13.315 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 1158 ms
+2021-05-06 14:22:13.511 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-06 14:22:13.636 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-9088"]
+2021-05-06 14:22:13.659 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:202 - Tomcat started on port(s): 9088 (http) with context path ''
+2021-05-06 14:22:13.662 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.279 seconds (JVM running for 3.164)

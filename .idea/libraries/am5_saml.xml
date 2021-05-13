@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="am5-saml">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/main/resources/lib/am5-saml.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/resources/lib/commons-collections-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/resources/lib/commons-httpclient-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/resources/lib/commons-lang-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/resources/lib/log4j-1.2.14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/resources/lib/opensaml-2.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/resources/lib/openws-1.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/resources/lib/velocity-1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/resources/lib/xercesImpl-2.9.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/resources/lib/xml-apis-2.9.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/resources/lib/xmlsec-1.4.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/resources/lib/xmltooling-1.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

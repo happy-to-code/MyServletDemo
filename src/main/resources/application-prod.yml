@@ -6,6 +6,7 @@ file:
 
 webcheck:
   url: "http://127.0.0.1:59095/mgmt-b/account/loginssobysy"
+  errUrl: "http://127.0.0.1:59095/#/login"
 
 wsdl:
   url: "http://10.240.41.10:31201/iamgate/services/IamgateWebService?wsdl"

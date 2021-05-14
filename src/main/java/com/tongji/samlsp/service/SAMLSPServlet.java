@@ -14,6 +14,7 @@ import com.tongji.samlsp.model.pojo.P7StringDTO;
 import com.tongji.samlsp.model.pojo.User;
 import com.tongji.samlsp.util.OKHttpUtil;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.cxf.endpoint.Client;
 import org.apache.cxf.jaxws.endpoint.dynamic.JaxWsDynamicClientFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,6 +27,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
 
 @Slf4j
 @Service
@@ -42,25 +45,32 @@ public class SAMLSPServlet extends HttpServlet {
     }
 
     public void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        log.info("----------------------------------------------------------------------------------------------");
-        req.setAttribute("name", "xm");
-        req.setAttribute("age", "18");
-        // String site = "http://www.baidu.com";
-        // resp.setStatus(resp.SC_MOVED_TEMPORARILY);
-        // resp.setHeader("Location", site);
-        resp.setContentType("text/html");
-        req.setCharacterEncoding("utf-8");
-        resp.setCharacterEncoding("utf-8");
-        req.getRequestDispatcher("/hello.jsp").forward(req, resp);
-        // RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/error.jsp");
-        // dispatcher.forward(req, resp);
-        // doPost(req, resp);
+        // String site = "https://el-admin.vip/guide/ksks.html#%E5%90%8E%E7%AB%AF%E8%BF%90%E8%A1%8C-idea.html";
+        // redirect(resp, site);
+        doPost(req, resp);
+    }
+
+    private void redirect(HttpServletResponse resp, String url, String param) {
+        if (StringUtils.isNoneBlank(param)) {
+            try {
+                String newParam = URLEncoder.encode(param, "utf-8");
+                url = url + "?error=" + newParam;
+            } catch (UnsupportedEncodingException e) {
+                e.printStackTrace();
+            }
+        }
+        log.info("=2====>redirect Url:[{}]", url);
+        resp.setStatus(resp.SC_MOVED_TEMPORARILY);
+        resp.setHeader("Location", url);
     }
 
     public void acs(HttpServletRequest req, HttpServletResponse response,
                     String samlResponseParam, String samlRelayState) {
         log.info("samlResponseParam:[{}]", samlResponseParam);
         log.info("samlRelayState:[{}]", samlRelayState);
+        // 发生错误时跳转的url
+        String errUrl = env.getProperty("webcheck.errUrl");
+        log.info("=1====errUrl===== = [{}]", errUrl);
         try {
             String samlPropertiesPath = env.getProperty("file.path");
             log.info("samlPropertiesPath = [{}]", samlPropertiesPath);
@@ -145,25 +155,25 @@ public class SAMLSPServlet extends HttpServlet {
                 // 获取 subUserId
                 User user = contentInfo.getUser();
                 if (user == null) {
-                    // todo
-                    log.info("用户为空");
+                    log.info("用户信息不可以为空");
+                    redirect(response,errUrl,"用户信息不可以为空");
                 }
                 String subUserId = user.getSubUserId();
                 if (subUserId == null) {
-                    // todo
-                    log.info("用户id为空");
+                    log.info("subUserId不可以为空");
+                    redirect(response,errUrl,"subUserId不可以为空");
                 }
 
                 String sessionToken = user.getSessionToken();
                 if (sessionToken == null) {
-                    // todo
-                    log.info("sessionToken为空");
+                    log.info("sessionToken不可以为空");
+                    redirect(response,errUrl,"sessionToken不可以为空");
                 }
 
                 String appId = user.getAppId();
                 if (appId == null) {
-                    // todo
-                    log.info("appId为空");
+                    log.info("appId不可以为空");
+                    redirect(response,errUrl,"appId不可以为空");
                 }
 
                 // String subUserId = "32233332233";
@@ -179,17 +189,16 @@ public class SAMLSPServlet extends HttpServlet {
                 String jsonResponse = OKHttpUtil.postJsonParams(webUrl, p7StringParamJsonStr);
                 log.info("jsonResponse:[{}]", jsonResponse);
                 if (jsonResponse == "" || jsonResponse.length() <= 0) {
-                    // todo
                     log.info("调用管理系统出错");
-                    return;
+                    redirect(response,errUrl,"调用管理系统出错");
                 }
                 //  反序列化 jsonResponse 判断有没有验证成功
                 WebCheckResponse webCheckResponse = JSON.parseObject(jsonResponse, WebCheckResponse.class);
                 log.info("webCheckResponse:[{}]", webCheckResponse);
                 Integer code = webCheckResponse.getCode();
                 if (code != 200) {
-                    // todo
-                    log.info("验证未通过");
+                    log.info("管理系统验证未通过");
+                    redirect(response,errUrl,"管理系统验证未通过");
                 }
                 String jwt = webCheckResponse.getData();
                 log.info("jwt====>[{}]", jwt);
@@ -206,30 +215,12 @@ public class SAMLSPServlet extends HttpServlet {
                     response.setHeader("Location", jwt);
                 } else {
                     log.info("callback fail：[{}]", res);
-                    //    todo
-
+                    redirect(response,errUrl,res);
                 }
-
-
-                // req.setAttribute("userIdentity", samlResponse.getUserIdentity());
-                // req.setAttribute("userAttributes", userAttributes.toString());
-                // req.setAttribute("authnContext", samlResponse.getAuthnContext());
-                //
-
-                // req.setAttribute("userIdentity", "123");
-                // req.setAttribute("userAttributes", "456");
-                // req.setAttribute("authnContext", "789");
-                //
-                // RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/webapp/success.jsp");
-                // dispatcher.forward(req, response);
-
-
             }
         } catch (Exception e) {
             e.printStackTrace();
-            // req.setAttribute("exception", e);
-            // RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/error.jsp");
-            // dispatcher.forward(req, response);
+            redirect(response,errUrl,e.toString());
         }
     }
 
@@ -264,7 +255,6 @@ public class SAMLSPServlet extends HttpServlet {
                     .append(",message:")
                     .append(iamgateWsResponse.getMessage());
             return sb.toString();
-
         } catch (Exception e) {
             e.printStackTrace();
             return e.toString();

@@ -1044,3 +1044,1173 @@ Correct the classpath of your application so that it contains a single, compatib
 2021-05-13 16:41:03.549 [XNIO-1 task-1] INFO  io.undertow.servlet:371 - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2021-05-13 16:41:03.549 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
 2021-05-13 16:41:03.553 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 4 ms
+2021-05-13 16:56:14.404 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:45 - ----------------------------------------------------------------------------------------------
+2021-05-13 16:56:22.931 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:45 - ----------------------------------------------------------------------------------------------
+2021-05-13 16:59:24.022 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:45 - ----------------------------------------------------------------------------------------------
+2021-05-13 16:59:32.309 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:45 - ----------------------------------------------------------------------------------------------
+2021-05-13 17:03:23.151 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 9568 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 17:03:23.154 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 17:03:24.422 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is java.lang.NoSuchMethodError: org.apache.catalina.loader.WebappLoader.<init>(Ljava/lang/ClassLoader;)V
+2021-05-13 17:03:24.430 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-05-13 17:03:24.437 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.prepareContext(TomcatServletWebServerFactory.java:214)
+
+The following method did not exist:
+
+    org.apache.catalina.loader.WebappLoader.<init>(Ljava/lang/ClassLoader;)V
+
+The method's class, org.apache.catalina.loader.WebappLoader, is available from the following locations:
+
+    jar:file:/C:/Users/user/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.0.2/tomcat-embed-core-10.0.2.jar!/org/apache/catalina/loader/WebappLoader.class
+
+It was loaded from the following location:
+
+    file:/C:/Users/user/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.0.2/tomcat-embed-core-10.0.2.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of org.apache.catalina.loader.WebappLoader
+
+2021-05-13 17:03:40.134 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 16928 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 17:03:40.137 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 17:03:41.134 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is java.lang.NoSuchMethodError: org.apache.catalina.loader.WebappLoader.<init>(Ljava/lang/ClassLoader;)V
+2021-05-13 17:03:41.141 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-05-13 17:03:41.148 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.prepareContext(TomcatServletWebServerFactory.java:214)
+
+The following method did not exist:
+
+    org.apache.catalina.loader.WebappLoader.<init>(Ljava/lang/ClassLoader;)V
+
+The method's class, org.apache.catalina.loader.WebappLoader, is available from the following locations:
+
+    jar:file:/C:/Users/user/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.0.2/tomcat-embed-core-10.0.2.jar!/org/apache/catalina/loader/WebappLoader.class
+
+It was loaded from the following location:
+
+    file:/C:/Users/user/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.0.2/tomcat-embed-core-10.0.2.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of org.apache.catalina.loader.WebappLoader
+
+2021-05-13 17:04:15.197 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 16232 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 17:04:15.206 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 17:04:16.104 [main] WARN  io.undertow.websockets.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-13 17:04:16.139 [main] INFO  io.undertow.servlet:371 - Initializing Spring embedded WebApplicationContext
+2021-05-13 17:04:16.140 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 895 ms
+2021-05-13 17:04:16.917 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:04:17.104 [main] INFO  io.undertow:120 - starting server: Undertow - 2.2.7.Final
+2021-05-13 17:04:17.110 [main] INFO  org.xnio:95 - XNIO version 3.8.0.Final
+2021-05-13 17:04:17.118 [main] INFO  org.xnio.nio:59 - XNIO NIO Implementation Version 3.8.0.Final
+2021-05-13 17:04:17.162 [main] INFO  org.jboss.threads:52 - JBoss Threads version 3.1.0.Final
+2021-05-13 17:04:17.199 [main] INFO  o.s.b.w.embedded.undertow.UndertowServletWebServer:144 - Undertow started on port(s) 9088 (http) with context path ''
+2021-05-13 17:04:17.204 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.635 seconds (JVM running for 3.487)
+2021-05-13 17:06:43.910 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:45 - ----------------------------------------------------------------------------------------------
+2021-05-13 17:06:43.939 [XNIO-1 task-1] INFO  io.undertow.servlet:371 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 17:06:43.940 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-13 17:06:43.949 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 9 ms
+2021-05-13 17:07:09.278 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:45 - ----------------------------------------------------------------------------------------------
+2021-05-13 17:08:18.206 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:08:18.208 [Thread-2] INFO  io.undertow.servlet:371 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-05-13 17:08:18.209 [Thread-2] INFO  io.undertow:259 - stopping server: Undertow - 2.2.7.Final
+2021-05-13 17:08:22.834 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 15276 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 17:08:22.837 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 17:08:23.726 [main] WARN  io.undertow.websockets.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-13 17:08:23.754 [main] INFO  io.undertow.servlet:371 - Initializing Spring embedded WebApplicationContext
+2021-05-13 17:08:23.754 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 875 ms
+2021-05-13 17:08:24.346 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:08:24.509 [main] INFO  io.undertow:120 - starting server: Undertow - 2.2.7.Final
+2021-05-13 17:08:24.515 [main] INFO  org.xnio:95 - XNIO version 3.8.0.Final
+2021-05-13 17:08:24.526 [main] INFO  org.xnio.nio:59 - XNIO NIO Implementation Version 3.8.0.Final
+2021-05-13 17:08:24.573 [main] INFO  org.jboss.threads:52 - JBoss Threads version 3.1.0.Final
+2021-05-13 17:08:24.613 [main] INFO  o.s.b.w.embedded.undertow.UndertowServletWebServer:144 - Undertow started on port(s) 9088 (http) with context path ''
+2021-05-13 17:08:24.617 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.387 seconds (JVM running for 3.178)
+2021-05-13 17:08:30.661 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:08:30.664 [Thread-2] INFO  io.undertow:259 - stopping server: Undertow - 2.2.7.Final
+2021-05-13 17:08:35.205 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 7200 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 17:08:35.210 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 17:08:36.118 [main] WARN  io.undertow.websockets.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-13 17:08:36.154 [main] INFO  io.undertow.servlet:371 - Initializing Spring embedded WebApplicationContext
+2021-05-13 17:08:36.154 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 904 ms
+2021-05-13 17:08:36.746 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:08:36.909 [main] INFO  io.undertow:120 - starting server: Undertow - 2.2.7.Final
+2021-05-13 17:08:36.916 [main] INFO  org.xnio:95 - XNIO version 3.8.0.Final
+2021-05-13 17:08:36.926 [main] INFO  org.xnio.nio:59 - XNIO NIO Implementation Version 3.8.0.Final
+2021-05-13 17:08:36.970 [main] INFO  org.jboss.threads:52 - JBoss Threads version 3.1.0.Final
+2021-05-13 17:08:37.004 [main] INFO  o.s.b.w.embedded.undertow.UndertowServletWebServer:144 - Undertow started on port(s) 9088 (http) with context path ''
+2021-05-13 17:08:37.007 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.364 seconds (JVM running for 3.18)
+2021-05-13 17:08:41.999 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:46 - ----------------------------------------------------------------------------------------------
+2021-05-13 17:08:42.003 [XNIO-1 task-1] INFO  io.undertow.servlet:371 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 17:08:42.004 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-13 17:08:42.012 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 8 ms
+2021-05-13 17:08:44.781 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:46 - ----------------------------------------------------------------------------------------------
+2021-05-13 17:08:48.544 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:46 - ----------------------------------------------------------------------------------------------
+2021-05-13 17:11:15.371 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:11:15.373 [Thread-2] INFO  io.undertow.servlet:371 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-05-13 17:11:15.374 [Thread-2] INFO  io.undertow:259 - stopping server: Undertow - 2.2.7.Final
+2021-05-13 17:11:21.001 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 15268 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 17:11:21.006 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 17:11:21.856 [main] WARN  io.undertow.websockets.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-13 17:11:21.889 [main] INFO  io.undertow.servlet:371 - Initializing Spring embedded WebApplicationContext
+2021-05-13 17:11:21.889 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 844 ms
+2021-05-13 17:11:22.497 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:11:22.655 [main] INFO  io.undertow:120 - starting server: Undertow - 2.2.7.Final
+2021-05-13 17:11:22.661 [main] INFO  org.xnio:95 - XNIO version 3.8.0.Final
+2021-05-13 17:11:22.670 [main] INFO  org.xnio.nio:59 - XNIO NIO Implementation Version 3.8.0.Final
+2021-05-13 17:11:22.711 [main] INFO  org.jboss.threads:52 - JBoss Threads version 3.1.0.Final
+2021-05-13 17:11:22.748 [main] INFO  o.s.b.w.embedded.undertow.UndertowServletWebServer:144 - Undertow started on port(s) 9088 (http) with context path ''
+2021-05-13 17:11:22.751 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.373 seconds (JVM running for 3.214)
+2021-05-13 17:11:27.299 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:45 - ----------------------------------------------------------------------------------------------
+2021-05-13 17:11:27.302 [XNIO-1 task-1] INFO  io.undertow.servlet:371 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 17:11:27.302 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-13 17:11:27.312 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 9 ms
+2021-05-13 17:11:27.325 [XNIO-1 task-1] WARN  o.s.w.servlet.resource.ResourceHttpRequestHandler:634 - Path with "WEB-INF" or "META-INF": [WEB-INF/hello.jsp]
+2021-05-13 17:11:40.243 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:45 - ----------------------------------------------------------------------------------------------
+2021-05-13 17:11:40.244 [XNIO-1 task-1] WARN  o.s.w.servlet.resource.ResourceHttpRequestHandler:634 - Path with "WEB-INF" or "META-INF": [WEB-INF/hello.jsp]
+2021-05-13 17:13:16.776 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:13:16.778 [Thread-2] INFO  io.undertow.servlet:371 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-05-13 17:13:16.780 [Thread-2] INFO  io.undertow:259 - stopping server: Undertow - 2.2.7.Final
+2021-05-13 17:13:21.281 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 16048 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 17:13:21.285 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 17:13:22.165 [main] WARN  io.undertow.websockets.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-13 17:13:22.196 [main] INFO  io.undertow.servlet:371 - Initializing Spring embedded WebApplicationContext
+2021-05-13 17:13:22.197 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 866 ms
+2021-05-13 17:13:22.776 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:13:22.930 [main] INFO  io.undertow:120 - starting server: Undertow - 2.2.7.Final
+2021-05-13 17:13:22.936 [main] INFO  org.xnio:95 - XNIO version 3.8.0.Final
+2021-05-13 17:13:22.946 [main] INFO  org.xnio.nio:59 - XNIO NIO Implementation Version 3.8.0.Final
+2021-05-13 17:13:22.986 [main] INFO  org.jboss.threads:52 - JBoss Threads version 3.1.0.Final
+2021-05-13 17:13:23.020 [main] INFO  o.s.b.w.embedded.undertow.UndertowServletWebServer:144 - Undertow started on port(s) 9088 (http) with context path ''
+2021-05-13 17:13:23.032 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.311 seconds (JVM running for 3.175)
+2021-05-13 17:13:29.426 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:45 - ----------------------------------------------------------------------------------------------
+2021-05-13 17:13:29.433 [XNIO-1 task-1] INFO  io.undertow.servlet:371 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 17:13:29.433 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-13 17:13:29.439 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 5 ms
+2021-05-13 17:14:14.504 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:14:14.506 [Thread-2] INFO  io.undertow.servlet:371 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-05-13 17:14:14.508 [Thread-2] INFO  io.undertow:259 - stopping server: Undertow - 2.2.7.Final
+2021-05-13 17:14:18.683 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 5304 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 17:14:18.686 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 17:14:19.511 [main] WARN  io.undertow.websockets.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-13 17:14:19.540 [main] INFO  io.undertow.servlet:371 - Initializing Spring embedded WebApplicationContext
+2021-05-13 17:14:19.542 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 810 ms
+2021-05-13 17:14:20.141 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:14:20.315 [main] INFO  io.undertow:120 - starting server: Undertow - 2.2.7.Final
+2021-05-13 17:14:20.322 [main] INFO  org.xnio:95 - XNIO version 3.8.0.Final
+2021-05-13 17:14:20.332 [main] INFO  org.xnio.nio:59 - XNIO NIO Implementation Version 3.8.0.Final
+2021-05-13 17:14:20.374 [main] INFO  org.jboss.threads:52 - JBoss Threads version 3.1.0.Final
+2021-05-13 17:14:20.406 [main] INFO  o.s.b.w.embedded.undertow.UndertowServletWebServer:144 - Undertow started on port(s) 9088 (http) with context path ''
+2021-05-13 17:14:20.416 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.273 seconds (JVM running for 2.998)
+2021-05-13 17:14:24.423 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:46 - ----------------------------------------------------------------------------------------------
+2021-05-13 17:14:24.425 [XNIO-1 task-1] INFO  io.undertow.servlet:371 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 17:14:24.426 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-13 17:14:24.435 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 9 ms
+2021-05-13 17:16:36.698 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:16:36.700 [Thread-2] INFO  io.undertow.servlet:371 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-05-13 17:16:36.701 [Thread-2] INFO  io.undertow:259 - stopping server: Undertow - 2.2.7.Final
+2021-05-13 17:16:41.101 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 17360 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 17:16:41.106 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 17:16:42.169 [main] WARN  io.undertow.websockets.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-13 17:16:42.209 [main] INFO  io.undertow.servlet:371 - Initializing Spring embedded WebApplicationContext
+2021-05-13 17:16:42.210 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 1051 ms
+2021-05-13 17:16:42.799 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:16:42.952 [main] INFO  io.undertow:120 - starting server: Undertow - 2.2.7.Final
+2021-05-13 17:16:42.960 [main] INFO  org.xnio:95 - XNIO version 3.8.0.Final
+2021-05-13 17:16:42.970 [main] INFO  org.xnio.nio:59 - XNIO NIO Implementation Version 3.8.0.Final
+2021-05-13 17:16:43.009 [main] INFO  org.jboss.threads:52 - JBoss Threads version 3.1.0.Final
+2021-05-13 17:16:43.043 [main] INFO  o.s.b.w.embedded.undertow.UndertowServletWebServer:144 - Undertow started on port(s) 9088 (http) with context path ''
+2021-05-13 17:16:43.047 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.547 seconds (JVM running for 3.345)
+2021-05-13 17:16:45.117 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:46 - ----------------------------------------------------------------------------------------------
+2021-05-13 17:16:45.122 [XNIO-1 task-1] INFO  io.undertow.servlet:371 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 17:16:45.123 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-13 17:16:45.129 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 6 ms
+2021-05-13 17:17:02.576 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:17:02.578 [Thread-2] INFO  io.undertow.servlet:371 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-05-13 17:17:02.579 [Thread-2] INFO  io.undertow:259 - stopping server: Undertow - 2.2.7.Final
+2021-05-13 17:17:08.156 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 12716 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 17:17:08.159 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 17:17:08.998 [main] WARN  io.undertow.websockets.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-13 17:17:09.027 [main] INFO  io.undertow.servlet:371 - Initializing Spring embedded WebApplicationContext
+2021-05-13 17:17:09.027 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 828 ms
+2021-05-13 17:17:09.608 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:17:09.766 [main] INFO  io.undertow:120 - starting server: Undertow - 2.2.7.Final
+2021-05-13 17:17:09.772 [main] INFO  org.xnio:95 - XNIO version 3.8.0.Final
+2021-05-13 17:17:09.782 [main] INFO  org.xnio.nio:59 - XNIO NIO Implementation Version 3.8.0.Final
+2021-05-13 17:17:09.822 [main] INFO  org.jboss.threads:52 - JBoss Threads version 3.1.0.Final
+2021-05-13 17:17:09.856 [main] INFO  o.s.b.w.embedded.undertow.UndertowServletWebServer:144 - Undertow started on port(s) 9088 (http) with context path ''
+2021-05-13 17:17:09.859 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.251 seconds (JVM running for 3.042)
+2021-05-13 17:17:11.641 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:45 - ----------------------------------------------------------------------------------------------
+2021-05-13 17:26:31.053 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:26:31.057 [Thread-2] INFO  io.undertow:259 - stopping server: Undertow - 2.2.7.Final
+2021-05-13 17:26:37.004 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 16592 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 17:26:37.013 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 17:26:37.868 [main] WARN  io.undertow.websockets.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-13 17:26:37.898 [main] INFO  io.undertow.servlet:371 - Initializing Spring embedded WebApplicationContext
+2021-05-13 17:26:37.898 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 837 ms
+2021-05-13 17:26:38.469 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:26:38.623 [main] INFO  io.undertow:120 - starting server: Undertow - 2.2.7.Final
+2021-05-13 17:26:38.629 [main] INFO  org.xnio:95 - XNIO version 3.8.0.Final
+2021-05-13 17:26:38.638 [main] INFO  org.xnio.nio:59 - XNIO NIO Implementation Version 3.8.0.Final
+2021-05-13 17:26:38.677 [main] INFO  org.jboss.threads:52 - JBoss Threads version 3.1.0.Final
+2021-05-13 17:26:38.710 [main] INFO  o.s.b.w.embedded.undertow.UndertowServletWebServer:144 - Undertow started on port(s) 9088 (http) with context path ''
+2021-05-13 17:26:38.713 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.333 seconds (JVM running for 3.122)
+2021-05-13 17:27:12.184 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:46 - ----------------------------------------------------------------------------------------------
+2021-05-13 17:27:12.187 [XNIO-1 task-1] INFO  io.undertow.servlet:371 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 17:27:12.187 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-13 17:27:12.197 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 9 ms
+2021-05-13 17:29:20.889 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:46 - ----------------------------------------------------------------------------------------------
+2021-05-13 17:31:02.081 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:31:02.083 [Thread-2] INFO  io.undertow.servlet:371 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-05-13 17:31:02.085 [Thread-2] INFO  io.undertow:259 - stopping server: Undertow - 2.2.7.Final
+2021-05-13 17:31:07.642 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 10820 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 17:31:07.645 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 17:31:08.503 [main] WARN  io.undertow.websockets.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-13 17:31:08.535 [main] INFO  io.undertow.servlet:371 - Initializing Spring embedded WebApplicationContext
+2021-05-13 17:31:08.536 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 849 ms
+2021-05-13 17:31:09.158 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:31:09.325 [main] INFO  io.undertow:120 - starting server: Undertow - 2.2.7.Final
+2021-05-13 17:31:09.332 [main] INFO  org.xnio:95 - XNIO version 3.8.0.Final
+2021-05-13 17:31:09.342 [main] INFO  org.xnio.nio:59 - XNIO NIO Implementation Version 3.8.0.Final
+2021-05-13 17:31:09.384 [main] INFO  org.jboss.threads:52 - JBoss Threads version 3.1.0.Final
+2021-05-13 17:31:09.419 [main] INFO  o.s.b.w.embedded.undertow.UndertowServletWebServer:144 - Undertow started on port(s) 9088 (http) with context path ''
+2021-05-13 17:31:09.423 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.331 seconds (JVM running for 3.063)
+2021-05-13 17:31:14.492 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:45 - ----------------------------------------------------------------------------------------------
+2021-05-13 17:32:13.853 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:45 - ----------------------------------------------------------------------------------------------
+2021-05-13 17:32:20.044 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:32:20.046 [Thread-2] INFO  io.undertow:259 - stopping server: Undertow - 2.2.7.Final
+2021-05-13 17:32:24.505 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 7284 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 17:32:24.508 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 17:32:25.396 [main] WARN  io.undertow.websockets.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-13 17:32:25.428 [main] INFO  io.undertow.servlet:371 - Initializing Spring embedded WebApplicationContext
+2021-05-13 17:32:25.429 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 870 ms
+2021-05-13 17:32:26.007 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:32:26.174 [main] INFO  io.undertow:120 - starting server: Undertow - 2.2.7.Final
+2021-05-13 17:32:26.180 [main] INFO  org.xnio:95 - XNIO version 3.8.0.Final
+2021-05-13 17:32:26.190 [main] INFO  org.xnio.nio:59 - XNIO NIO Implementation Version 3.8.0.Final
+2021-05-13 17:32:26.234 [main] INFO  org.jboss.threads:52 - JBoss Threads version 3.1.0.Final
+2021-05-13 17:32:26.270 [main] INFO  o.s.b.w.embedded.undertow.UndertowServletWebServer:144 - Undertow started on port(s) 9088 (http) with context path ''
+2021-05-13 17:32:26.281 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.402 seconds (JVM running for 3.162)
+2021-05-13 17:33:14.369 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:46 - ----------------------------------------------------------------------------------------------
+2021-05-13 17:33:14.372 [XNIO-1 task-1] INFO  io.undertow.servlet:371 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 17:33:14.372 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-13 17:33:14.381 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 9 ms
+2021-05-13 17:34:35.472 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:46 - ----------------------------------------------------------------------------------------------
+2021-05-13 17:38:00.734 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:38:00.736 [Thread-2] INFO  io.undertow.servlet:371 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-05-13 17:38:00.737 [Thread-2] INFO  io.undertow:259 - stopping server: Undertow - 2.2.7.Final
+2021-05-13 17:38:07.763 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 16792 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 17:38:07.767 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 17:38:08.690 [main] WARN  io.undertow.websockets.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-13 17:38:08.722 [main] INFO  io.undertow.servlet:371 - Initializing Spring embedded WebApplicationContext
+2021-05-13 17:38:08.723 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 915 ms
+2021-05-13 17:38:09.343 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:38:09.523 [main] INFO  io.undertow:120 - starting server: Undertow - 2.2.7.Final
+2021-05-13 17:38:09.530 [main] INFO  org.xnio:95 - XNIO version 3.8.0.Final
+2021-05-13 17:38:09.540 [main] INFO  org.xnio.nio:59 - XNIO NIO Implementation Version 3.8.0.Final
+2021-05-13 17:38:09.580 [main] INFO  org.jboss.threads:52 - JBoss Threads version 3.1.0.Final
+2021-05-13 17:38:09.615 [main] INFO  o.s.b.w.embedded.undertow.UndertowServletWebServer:144 - Undertow started on port(s) 9088 (http) with context path ''
+2021-05-13 17:38:09.627 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.453 seconds (JVM running for 3.211)
+2021-05-13 17:38:15.248 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:46 - ----------------------------------------------------------------------------------------------
+2021-05-13 17:38:15.250 [XNIO-1 task-1] INFO  io.undertow.servlet:371 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 17:38:15.251 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-13 17:38:15.258 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 6 ms
+2021-05-13 17:42:51.983 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:42:51.985 [Thread-2] INFO  io.undertow.servlet:371 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-05-13 17:42:51.986 [Thread-2] INFO  io.undertow:259 - stopping server: Undertow - 2.2.7.Final
+2021-05-13 17:42:57.504 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 11208 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 17:42:57.507 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 17:42:58.350 [main] WARN  io.undertow.websockets.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-13 17:42:58.380 [main] INFO  io.undertow.servlet:371 - Initializing Spring embedded WebApplicationContext
+2021-05-13 17:42:58.381 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 835 ms
+2021-05-13 17:42:58.962 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:42:59.134 [main] INFO  io.undertow:120 - starting server: Undertow - 2.2.7.Final
+2021-05-13 17:42:59.139 [main] INFO  org.xnio:95 - XNIO version 3.8.0.Final
+2021-05-13 17:42:59.149 [main] INFO  org.xnio.nio:59 - XNIO NIO Implementation Version 3.8.0.Final
+2021-05-13 17:42:59.192 [main] INFO  org.jboss.threads:52 - JBoss Threads version 3.1.0.Final
+2021-05-13 17:42:59.230 [main] INFO  o.s.b.w.embedded.undertow.UndertowServletWebServer:144 - Undertow started on port(s) 9088 (http) with context path ''
+2021-05-13 17:42:59.233 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.309 seconds (JVM running for 3.121)
+2021-05-13 17:43:23.876 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:43:23.879 [Thread-2] INFO  io.undertow:259 - stopping server: Undertow - 2.2.7.Final
+2021-05-13 17:43:28.736 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 15200 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 17:43:28.743 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 17:43:29.604 [main] WARN  io.undertow.websockets.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-13 17:43:29.630 [main] INFO  io.undertow.servlet:371 - Initializing Spring embedded WebApplicationContext
+2021-05-13 17:43:29.631 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 849 ms
+2021-05-13 17:43:30.210 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:43:30.366 [main] INFO  io.undertow:120 - starting server: Undertow - 2.2.7.Final
+2021-05-13 17:43:30.373 [main] INFO  org.xnio:95 - XNIO version 3.8.0.Final
+2021-05-13 17:43:30.381 [main] INFO  org.xnio.nio:59 - XNIO NIO Implementation Version 3.8.0.Final
+2021-05-13 17:43:30.421 [main] INFO  org.jboss.threads:52 - JBoss Threads version 3.1.0.Final
+2021-05-13 17:43:30.454 [main] INFO  o.s.b.w.embedded.undertow.UndertowServletWebServer:144 - Undertow started on port(s) 9088 (http) with context path ''
+2021-05-13 17:43:30.465 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.322 seconds (JVM running for 3.099)
+2021-05-13 17:43:35.320 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:46 - ----------------------------------------------------------------------------------------------
+2021-05-13 17:43:35.332 [XNIO-1 task-1] INFO  io.undertow.servlet:371 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 17:43:35.333 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-13 17:43:35.338 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 5 ms
+2021-05-13 17:43:57.524 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:46 - ----------------------------------------------------------------------------------------------
+2021-05-13 17:46:59.533 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:46:59.535 [Thread-2] INFO  io.undertow.servlet:371 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-05-13 17:46:59.536 [Thread-2] INFO  io.undertow:259 - stopping server: Undertow - 2.2.7.Final
+2021-05-13 17:47:05.072 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 14352 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 17:47:05.075 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 17:47:05.901 [main] WARN  io.undertow.websockets.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-13 17:47:05.930 [main] INFO  io.undertow.servlet:371 - Initializing Spring embedded WebApplicationContext
+2021-05-13 17:47:05.931 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 815 ms
+2021-05-13 17:47:06.504 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:47:06.666 [main] INFO  io.undertow:120 - starting server: Undertow - 2.2.7.Final
+2021-05-13 17:47:06.671 [main] INFO  org.xnio:95 - XNIO version 3.8.0.Final
+2021-05-13 17:47:06.681 [main] INFO  org.xnio.nio:59 - XNIO NIO Implementation Version 3.8.0.Final
+2021-05-13 17:47:06.720 [main] INFO  org.jboss.threads:52 - JBoss Threads version 3.1.0.Final
+2021-05-13 17:47:06.755 [main] INFO  o.s.b.w.embedded.undertow.UndertowServletWebServer:144 - Undertow started on port(s) 9088 (http) with context path ''
+2021-05-13 17:47:06.758 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.285 seconds (JVM running for 2.987)
+2021-05-13 17:47:11.219 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:46 - ----------------------------------------------------------------------------------------------
+2021-05-13 17:47:11.223 [XNIO-1 task-1] INFO  io.undertow.servlet:371 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 17:47:11.224 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-13 17:47:11.233 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 9 ms
+2021-05-13 17:47:31.209 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:46 - ----------------------------------------------------------------------------------------------
+2021-05-13 17:47:45.248 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:46 - ----------------------------------------------------------------------------------------------
+2021-05-13 17:47:50.768 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:46 - ----------------------------------------------------------------------------------------------
+2021-05-13 17:48:51.776 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:48:51.778 [Thread-2] INFO  io.undertow.servlet:371 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-05-13 17:48:51.779 [Thread-2] INFO  io.undertow:259 - stopping server: Undertow - 2.2.7.Final
+2021-05-13 17:48:55.936 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 5660 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 17:48:55.940 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 17:48:56.782 [main] WARN  io.undertow.websockets.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-13 17:48:56.811 [main] INFO  io.undertow.servlet:371 - Initializing Spring embedded WebApplicationContext
+2021-05-13 17:48:56.811 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 826 ms
+2021-05-13 17:48:57.378 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:48:57.532 [main] INFO  io.undertow:120 - starting server: Undertow - 2.2.7.Final
+2021-05-13 17:48:57.539 [main] INFO  org.xnio:95 - XNIO version 3.8.0.Final
+2021-05-13 17:48:57.548 [main] INFO  org.xnio.nio:59 - XNIO NIO Implementation Version 3.8.0.Final
+2021-05-13 17:48:57.587 [main] INFO  org.jboss.threads:52 - JBoss Threads version 3.1.0.Final
+2021-05-13 17:48:57.623 [main] INFO  o.s.b.w.embedded.undertow.UndertowServletWebServer:144 - Undertow started on port(s) 9088 (http) with context path ''
+2021-05-13 17:48:57.627 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.238 seconds (JVM running for 2.993)
+2021-05-13 17:49:10.603 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:46 - ----------------------------------------------------------------------------------------------
+2021-05-13 17:49:10.610 [XNIO-1 task-1] INFO  io.undertow.servlet:371 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 17:49:10.610 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-13 17:49:10.615 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 5 ms
+2021-05-13 17:51:53.611 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:51:53.613 [Thread-2] INFO  io.undertow.servlet:371 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-05-13 17:51:53.614 [Thread-2] INFO  io.undertow:259 - stopping server: Undertow - 2.2.7.Final
+2021-05-13 17:51:57.645 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 6896 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 17:51:57.654 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 17:51:58.506 [main] WARN  io.undertow.websockets.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-13 17:51:58.532 [main] INFO  io.undertow.servlet:371 - Initializing Spring embedded WebApplicationContext
+2021-05-13 17:51:58.533 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 844 ms
+2021-05-13 17:51:59.115 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:51:59.292 [main] INFO  io.undertow:120 - starting server: Undertow - 2.2.7.Final
+2021-05-13 17:51:59.298 [main] INFO  org.xnio:95 - XNIO version 3.8.0.Final
+2021-05-13 17:51:59.309 [main] INFO  org.xnio.nio:59 - XNIO NIO Implementation Version 3.8.0.Final
+2021-05-13 17:51:59.358 [main] INFO  org.jboss.threads:52 - JBoss Threads version 3.1.0.Final
+2021-05-13 17:51:59.395 [main] INFO  o.s.b.w.embedded.undertow.UndertowServletWebServer:144 - Undertow started on port(s) 9088 (http) with context path ''
+2021-05-13 17:51:59.407 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.318 seconds (JVM running for 3.092)
+2021-05-13 17:52:04.707 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:46 - ----------------------------------------------------------------------------------------------
+2021-05-13 17:52:04.715 [XNIO-1 task-1] INFO  io.undertow.servlet:371 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 17:52:04.716 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-13 17:52:04.721 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 5 ms
+2021-05-13 17:52:28.249 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:52:28.254 [Thread-2] INFO  io.undertow.servlet:371 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-05-13 17:52:28.255 [Thread-2] INFO  io.undertow:259 - stopping server: Undertow - 2.2.7.Final
+2021-05-13 17:52:31.785 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 1076 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 17:52:31.788 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 17:52:32.602 [main] WARN  io.undertow.websockets.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-13 17:52:32.633 [main] INFO  io.undertow.servlet:371 - Initializing Spring embedded WebApplicationContext
+2021-05-13 17:52:32.633 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 806 ms
+2021-05-13 17:52:33.215 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:52:33.409 [main] INFO  io.undertow:120 - starting server: Undertow - 2.2.7.Final
+2021-05-13 17:52:33.415 [main] INFO  org.xnio:95 - XNIO version 3.8.0.Final
+2021-05-13 17:52:33.426 [main] INFO  org.xnio.nio:59 - XNIO NIO Implementation Version 3.8.0.Final
+2021-05-13 17:52:33.467 [main] INFO  org.jboss.threads:52 - JBoss Threads version 3.1.0.Final
+2021-05-13 17:52:33.505 [main] INFO  o.s.b.w.embedded.undertow.UndertowServletWebServer:144 - Undertow started on port(s) 9088 (http) with context path ''
+2021-05-13 17:52:33.508 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.267 seconds (JVM running for 3.016)
+2021-05-13 17:52:38.979 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:46 - ----------------------------------------------------------------------------------------------
+2021-05-13 17:52:38.984 [XNIO-1 task-1] INFO  io.undertow.servlet:371 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 17:52:38.984 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-13 17:52:38.990 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 5 ms
+2021-05-13 17:55:03.040 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:55:03.042 [Thread-2] INFO  io.undertow.servlet:371 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-05-13 17:55:03.043 [Thread-2] INFO  io.undertow:259 - stopping server: Undertow - 2.2.7.Final
+2021-05-13 17:55:06.579 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 9308 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 17:55:06.582 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 17:55:07.649 [main] WARN  io.undertow.websockets.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-13 17:55:07.682 [main] INFO  io.undertow.servlet:371 - Initializing Spring embedded WebApplicationContext
+2021-05-13 17:55:07.683 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 1030 ms
+2021-05-13 17:55:08.442 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:55:08.625 [main] INFO  io.undertow:120 - starting server: Undertow - 2.2.7.Final
+2021-05-13 17:55:08.631 [main] INFO  org.xnio:95 - XNIO version 3.8.0.Final
+2021-05-13 17:55:08.641 [main] INFO  org.xnio.nio:59 - XNIO NIO Implementation Version 3.8.0.Final
+2021-05-13 17:55:08.681 [main] INFO  org.jboss.threads:52 - JBoss Threads version 3.1.0.Final
+2021-05-13 17:55:08.728 [main] INFO  o.s.b.w.embedded.undertow.UndertowServletWebServer:144 - Undertow started on port(s) 9088 (http) with context path ''
+2021-05-13 17:55:08.731 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.8 seconds (JVM running for 3.625)
+2021-05-13 17:55:18.772 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:46 - ----------------------------------------------------------------------------------------------
+2021-05-13 17:55:18.776 [XNIO-1 task-1] INFO  io.undertow.servlet:371 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 17:55:18.777 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-13 17:55:18.783 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 6 ms
+2021-05-13 17:57:57.196 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:57:57.199 [Thread-2] INFO  io.undertow.servlet:371 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-05-13 17:57:57.200 [Thread-2] INFO  io.undertow:259 - stopping server: Undertow - 2.2.7.Final
+2021-05-13 17:58:00.541 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 4768 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 17:58:00.544 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 17:58:01.405 [main] WARN  io.undertow.websockets.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-13 17:58:01.436 [main] INFO  io.undertow.servlet:371 - Initializing Spring embedded WebApplicationContext
+2021-05-13 17:58:01.437 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 858 ms
+2021-05-13 17:58:02.023 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:58:02.183 [main] INFO  io.undertow:120 - starting server: Undertow - 2.2.7.Final
+2021-05-13 17:58:02.190 [main] INFO  org.xnio:95 - XNIO version 3.8.0.Final
+2021-05-13 17:58:02.198 [main] INFO  org.xnio.nio:59 - XNIO NIO Implementation Version 3.8.0.Final
+2021-05-13 17:58:02.238 [main] INFO  org.jboss.threads:52 - JBoss Threads version 3.1.0.Final
+2021-05-13 17:58:02.273 [main] INFO  o.s.b.w.embedded.undertow.UndertowServletWebServer:144 - Undertow started on port(s) 9088 (http) with context path ''
+2021-05-13 17:58:02.276 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.287 seconds (JVM running for 3.075)
+2021-05-13 17:58:06.649 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:46 - ----------------------------------------------------------------------------------------------
+2021-05-13 17:58:06.655 [XNIO-1 task-1] INFO  io.undertow.servlet:371 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 17:58:06.656 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-13 17:58:06.661 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 5 ms
+2021-05-13 17:59:15.090 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:59:15.092 [Thread-2] INFO  io.undertow.servlet:371 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-05-13 17:59:15.093 [Thread-2] INFO  io.undertow:259 - stopping server: Undertow - 2.2.7.Final
+2021-05-13 17:59:18.585 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 14592 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 17:59:18.588 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 17:59:19.507 [main] WARN  io.undertow.websockets.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-13 17:59:19.536 [main] INFO  io.undertow.servlet:371 - Initializing Spring embedded WebApplicationContext
+2021-05-13 17:59:19.536 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 910 ms
+2021-05-13 17:59:20.102 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 17:59:20.253 [main] INFO  io.undertow:120 - starting server: Undertow - 2.2.7.Final
+2021-05-13 17:59:20.259 [main] INFO  org.xnio:95 - XNIO version 3.8.0.Final
+2021-05-13 17:59:20.275 [main] INFO  org.xnio.nio:59 - XNIO NIO Implementation Version 3.8.0.Final
+2021-05-13 17:59:20.304 [main] INFO  org.jboss.threads:52 - JBoss Threads version 3.1.0.Final
+2021-05-13 17:59:20.345 [main] INFO  o.s.b.w.embedded.undertow.UndertowServletWebServer:144 - Undertow started on port(s) 9088 (http) with context path ''
+2021-05-13 17:59:20.348 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.363 seconds (JVM running for 3.142)
+2021-05-13 17:59:22.489 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:46 - ----------------------------------------------------------------------------------------------
+2021-05-13 17:59:22.494 [XNIO-1 task-1] INFO  io.undertow.servlet:371 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 17:59:22.494 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-13 17:59:22.510 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 15 ms
+2021-05-13 18:01:19.323 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 18:01:19.325 [Thread-2] INFO  io.undertow.servlet:371 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-05-13 18:01:19.327 [Thread-2] INFO  io.undertow:259 - stopping server: Undertow - 2.2.7.Final
+2021-05-13 18:01:22.598 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 14160 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 18:01:22.601 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 18:01:23.666 [main] WARN  io.undertow.websockets.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-13 18:01:23.704 [main] INFO  io.undertow.servlet:371 - Initializing Spring embedded WebApplicationContext
+2021-05-13 18:01:23.704 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 1065 ms
+2021-05-13 18:01:24.382 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 18:01:24.555 [main] INFO  io.undertow:120 - starting server: Undertow - 2.2.7.Final
+2021-05-13 18:01:24.563 [main] INFO  org.xnio:95 - XNIO version 3.8.0.Final
+2021-05-13 18:01:24.571 [main] INFO  org.xnio.nio:59 - XNIO NIO Implementation Version 3.8.0.Final
+2021-05-13 18:01:24.629 [main] INFO  org.jboss.threads:52 - JBoss Threads version 3.1.0.Final
+2021-05-13 18:01:24.661 [main] INFO  o.s.b.w.embedded.undertow.UndertowServletWebServer:144 - Undertow started on port(s) 9088 (http) with context path ''
+2021-05-13 18:01:24.664 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.62 seconds (JVM running for 3.406)
+2021-05-13 18:01:26.840 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:46 - ----------------------------------------------------------------------------------------------
+2021-05-13 18:01:26.847 [XNIO-1 task-1] INFO  io.undertow.servlet:371 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 18:01:26.847 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-13 18:01:26.852 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 5 ms
+2021-05-13 18:02:01.093 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 18:02:01.095 [Thread-2] INFO  io.undertow.servlet:371 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-05-13 18:02:01.096 [Thread-2] INFO  io.undertow:259 - stopping server: Undertow - 2.2.7.Final
+2021-05-13 18:02:04.519 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 3064 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 18:02:04.522 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 18:02:05.355 [main] WARN  io.undertow.websockets.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-13 18:02:05.385 [main] INFO  io.undertow.servlet:371 - Initializing Spring embedded WebApplicationContext
+2021-05-13 18:02:05.385 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 822 ms
+2021-05-13 18:02:06.021 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 18:02:06.206 [main] INFO  io.undertow:120 - starting server: Undertow - 2.2.7.Final
+2021-05-13 18:02:06.213 [main] INFO  org.xnio:95 - XNIO version 3.8.0.Final
+2021-05-13 18:02:06.222 [main] INFO  org.xnio.nio:59 - XNIO NIO Implementation Version 3.8.0.Final
+2021-05-13 18:02:06.269 [main] INFO  org.jboss.threads:52 - JBoss Threads version 3.1.0.Final
+2021-05-13 18:02:06.307 [main] INFO  o.s.b.w.embedded.undertow.UndertowServletWebServer:144 - Undertow started on port(s) 9088 (http) with context path ''
+2021-05-13 18:02:06.312 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.321 seconds (JVM running for 3.089)
+2021-05-13 18:02:08.116 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:46 - ----------------------------------------------------------------------------------------------
+2021-05-13 18:02:08.121 [XNIO-1 task-1] INFO  io.undertow.servlet:371 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 18:02:08.122 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-13 18:02:08.127 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 5 ms
+2021-05-13 18:05:33.746 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 18:05:33.748 [Thread-2] INFO  io.undertow.servlet:371 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-05-13 18:05:33.749 [Thread-2] INFO  io.undertow:259 - stopping server: Undertow - 2.2.7.Final
+2021-05-13 18:05:38.418 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 2548 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 18:05:38.421 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 18:05:39.268 [main] WARN  io.undertow.websockets.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-13 18:05:39.297 [main] INFO  io.undertow.servlet:371 - Initializing Spring embedded WebApplicationContext
+2021-05-13 18:05:39.297 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 833 ms
+2021-05-13 18:05:39.871 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 18:05:40.029 [main] INFO  io.undertow:120 - starting server: Undertow - 2.2.7.Final
+2021-05-13 18:05:40.035 [main] INFO  org.xnio:95 - XNIO version 3.8.0.Final
+2021-05-13 18:05:40.043 [main] INFO  org.xnio.nio:59 - XNIO NIO Implementation Version 3.8.0.Final
+2021-05-13 18:05:40.082 [main] INFO  org.jboss.threads:52 - JBoss Threads version 3.1.0.Final
+2021-05-13 18:05:40.115 [main] INFO  o.s.b.w.embedded.undertow.UndertowServletWebServer:144 - Undertow started on port(s) 9088 (http) with context path ''
+2021-05-13 18:05:40.118 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.244 seconds (JVM running for 2.986)
+2021-05-13 18:05:43.956 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:45 - ----------------------------------------------------------------------------------------------
+2021-05-13 18:05:43.966 [XNIO-1 task-1] INFO  io.undertow.servlet:371 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 18:05:43.967 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-13 18:05:43.975 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 8 ms
+2021-05-13 18:06:55.852 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 18:06:55.854 [Thread-2] INFO  io.undertow.servlet:371 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-05-13 18:06:55.855 [Thread-2] INFO  io.undertow:259 - stopping server: Undertow - 2.2.7.Final
+2021-05-13 18:06:59.904 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 9240 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 18:06:59.907 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 18:07:00.725 [main] WARN  io.undertow.websockets.jsr:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-13 18:07:00.751 [main] INFO  io.undertow.servlet:371 - Initializing Spring embedded WebApplicationContext
+2021-05-13 18:07:00.751 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 802 ms
+2021-05-13 18:07:01.305 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 18:07:01.455 [main] INFO  io.undertow:120 - starting server: Undertow - 2.2.7.Final
+2021-05-13 18:07:01.461 [main] INFO  org.xnio:95 - XNIO version 3.8.0.Final
+2021-05-13 18:07:01.470 [main] INFO  org.xnio.nio:59 - XNIO NIO Implementation Version 3.8.0.Final
+2021-05-13 18:07:01.506 [main] INFO  org.jboss.threads:52 - JBoss Threads version 3.1.0.Final
+2021-05-13 18:07:01.540 [main] INFO  o.s.b.w.embedded.undertow.UndertowServletWebServer:144 - Undertow started on port(s) 9088 (http) with context path ''
+2021-05-13 18:07:01.543 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.324 seconds (JVM running for 3.362)
+2021-05-13 18:07:03.568 [XNIO-1 task-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:45 - ----------------------------------------------------------------------------------------------
+2021-05-13 18:07:03.574 [XNIO-1 task-1] INFO  io.undertow.servlet:371 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 18:07:03.576 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-13 18:07:03.581 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 5 ms
+2021-05-13 18:10:57.102 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 18:10:57.104 [Thread-2] INFO  io.undertow.servlet:371 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-05-13 18:10:57.105 [Thread-2] INFO  io.undertow:259 - stopping server: Undertow - 2.2.7.Final
+2021-05-13 18:11:03.908 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 15864 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 18:11:03.911 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 18:11:05.040 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 9088 (http)
+2021-05-13 18:11:05.071 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-9088"]
+2021-05-13 18:11:05.081 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2021-05-13 18:11:05.081 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2021-05-13 18:11:05.191 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-05-13 18:11:05.192 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 1233 ms
+2021-05-13 18:11:05.733 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 18:11:05.892 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-9088"]
+2021-05-13 18:11:05.943 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:202 - Tomcat started on port(s): 9088 (http) with context path ''
+2021-05-13 18:11:05.947 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.602 seconds (JVM running for 3.396)
+2021-05-13 18:11:19.523 [http-nio-9088-exec-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:45 - ----------------------------------------------------------------------------------------------
+2021-05-13 18:11:19.529 [http-nio-9088-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 18:11:19.529 [http-nio-9088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-13 18:11:19.535 [http-nio-9088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 5 ms
+2021-05-13 18:12:40.061 [Thread-3] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 18:12:44.406 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 9016 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 18:12:44.410 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 18:12:45.344 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 9088 (http)
+2021-05-13 18:12:45.356 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-9088"]
+2021-05-13 18:12:45.364 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2021-05-13 18:12:45.365 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2021-05-13 18:12:45.470 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-05-13 18:12:45.470 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 1017 ms
+2021-05-13 18:12:46.028 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 18:12:46.187 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-9088"]
+2021-05-13 18:12:46.208 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:202 - Tomcat started on port(s): 9088 (http) with context path ''
+2021-05-13 18:12:46.211 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.379 seconds (JVM running for 3.166)
+2021-05-13 18:12:57.427 [http-nio-9088-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 18:12:57.428 [http-nio-9088-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-13 18:12:57.432 [http-nio-9088-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 4 ms
+2021-05-13 18:13:12.763 [Thread-3] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 18:13:16.794 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 15188 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 18:13:16.797 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 18:13:17.733 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 9088 (http)
+2021-05-13 18:13:17.744 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-9088"]
+2021-05-13 18:13:17.753 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2021-05-13 18:13:17.753 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2021-05-13 18:13:17.864 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-05-13 18:13:17.865 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 1025 ms
+2021-05-13 18:13:18.398 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 18:13:18.553 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-9088"]
+2021-05-13 18:13:18.575 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:202 - Tomcat started on port(s): 9088 (http) with context path ''
+2021-05-13 18:13:18.578 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.356 seconds (JVM running for 3.116)
+2021-05-13 18:13:25.511 [http-nio-9088-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 18:13:25.512 [http-nio-9088-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-13 18:13:25.517 [http-nio-9088-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 5 ms
+2021-05-13 18:15:36.223 [Thread-3] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 18:15:41.149 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 3848 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 18:15:41.152 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 18:15:42.036 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 9088 (http)
+2021-05-13 18:15:42.054 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-9088"]
+2021-05-13 18:15:42.064 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2021-05-13 18:15:42.065 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2021-05-13 18:15:42.224 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-05-13 18:15:42.225 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 1030 ms
+2021-05-13 18:15:42.766 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 18:15:42.909 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-9088"]
+2021-05-13 18:15:42.939 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:202 - Tomcat started on port(s): 9088 (http) with context path ''
+2021-05-13 18:15:42.942 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.364 seconds (JVM running for 3.304)
+2021-05-13 18:15:45.714 [http-nio-9088-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 18:15:45.714 [http-nio-9088-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-13 18:15:45.721 [http-nio-9088-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 7 ms
+2021-05-13 18:15:56.950 [Thread-3] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 18:16:01.298 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 16988 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 18:16:01.307 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 18:16:02.190 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 9088 (http)
+2021-05-13 18:16:02.233 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-9088"]
+2021-05-13 18:16:02.242 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2021-05-13 18:16:02.242 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2021-05-13 18:16:02.342 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-05-13 18:16:02.342 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 993 ms
+2021-05-13 18:16:02.890 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 18:16:03.046 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-9088"]
+2021-05-13 18:16:03.068 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:202 - Tomcat started on port(s): 9088 (http) with context path ''
+2021-05-13 18:16:03.071 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.325 seconds (JVM running for 3.144)
+2021-05-13 18:16:06.318 [http-nio-9088-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 18:16:06.319 [http-nio-9088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-13 18:16:06.330 [http-nio-9088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 11 ms
+2021-05-13 18:16:25.391 [Thread-3] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 18:16:29.496 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 4748 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 18:16:29.499 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 18:16:30.435 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 9088 (http)
+2021-05-13 18:16:30.448 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-9088"]
+2021-05-13 18:16:30.463 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2021-05-13 18:16:30.463 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2021-05-13 18:16:30.565 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-05-13 18:16:30.565 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 1020 ms
+2021-05-13 18:16:31.097 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 18:16:31.246 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-9088"]
+2021-05-13 18:16:31.268 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:202 - Tomcat started on port(s): 9088 (http) with context path ''
+2021-05-13 18:16:31.272 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.389 seconds (JVM running for 3.168)
+2021-05-13 18:16:36.971 [http-nio-9088-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 18:16:36.972 [http-nio-9088-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-13 18:16:36.979 [http-nio-9088-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 7 ms
+2021-05-13 18:18:49.909 [Thread-3] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 18:18:53.697 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 11636 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 18:18:53.700 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 18:18:54.693 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 9088 (http)
+2021-05-13 18:18:54.707 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-9088"]
+2021-05-13 18:18:54.723 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2021-05-13 18:18:54.723 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2021-05-13 18:18:54.830 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-05-13 18:18:54.830 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 1089 ms
+2021-05-13 18:18:55.436 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 18:18:55.598 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-9088"]
+2021-05-13 18:18:55.624 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:202 - Tomcat started on port(s): 9088 (http) with context path ''
+2021-05-13 18:18:55.627 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.554 seconds (JVM running for 3.331)
+2021-05-13 18:18:58.998 [http-nio-9088-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 18:18:58.998 [http-nio-9088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-13 18:18:59.004 [http-nio-9088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 6 ms
+2021-05-13 18:18:59.059 [http-nio-9088-exec-1] WARN  o.s.w.servlet.resource.ResourceHttpRequestHandler:634 - Path with "WEB-INF" or "META-INF": [WEB-INF/webapp/hello.jsp]
+2021-05-13 18:20:00.780 [Thread-3] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 18:20:05.733 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 3668 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 18:20:05.736 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 18:20:06.667 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 9088 (http)
+2021-05-13 18:20:06.681 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-9088"]
+2021-05-13 18:20:06.690 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2021-05-13 18:20:06.690 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2021-05-13 18:20:06.795 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-05-13 18:20:06.795 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 1015 ms
+2021-05-13 18:20:07.326 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 18:20:07.479 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-9088"]
+2021-05-13 18:20:07.502 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:202 - Tomcat started on port(s): 9088 (http) with context path ''
+2021-05-13 18:20:07.505 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.349 seconds (JVM running for 3.641)
+2021-05-13 18:20:11.344 [http-nio-9088-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 18:20:11.344 [http-nio-9088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-13 18:20:11.359 [http-nio-9088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 15 ms
+2021-05-13 18:20:11.396 [http-nio-9088-exec-1] WARN  o.s.w.servlet.resource.ResourceHttpRequestHandler:634 - Path with "WEB-INF" or "META-INF": [WEB-INF/webapp/hello.jsp]
+2021-05-13 18:23:14.874 [Thread-3] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 18:23:20.523 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 15836 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 18:23:20.527 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 18:23:21.447 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 9088 (http)
+2021-05-13 18:23:21.459 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-9088"]
+2021-05-13 18:23:21.468 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2021-05-13 18:23:21.468 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2021-05-13 18:23:21.650 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-05-13 18:23:21.650 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 1083 ms
+2021-05-13 18:23:22.176 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 18:23:22.318 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-9088"]
+2021-05-13 18:23:22.357 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:202 - Tomcat started on port(s): 9088 (http) with context path ''
+2021-05-13 18:23:22.360 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.393 seconds (JVM running for 3.446)
+2021-05-13 18:23:26.240 [http-nio-9088-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 18:23:26.241 [http-nio-9088-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-13 18:23:26.247 [http-nio-9088-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 6 ms
+2021-05-13 18:23:26.283 [http-nio-9088-exec-2] WARN  o.s.w.servlet.resource.ResourceHttpRequestHandler:634 - Path with "WEB-INF" or "META-INF": [WEB-INF/views/hello.jsp]
+2021-05-13 18:28:04.104 [Thread-3] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 18:28:12.866 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 7872 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 18:28:12.870 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 18:28:13.884 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 9088 (http)
+2021-05-13 18:28:13.902 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-9088"]
+2021-05-13 18:28:13.920 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2021-05-13 18:28:13.920 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-05-13 18:28:14.057 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-05-13 18:28:14.057 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 1138 ms
+2021-05-13 18:28:14.588 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 18:28:14.661 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping:58 - Adding welcome page template: index
+2021-05-13 18:28:14.744 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-9088"]
+2021-05-13 18:28:14.777 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:202 - Tomcat started on port(s): 9088 (http) with context path ''
+2021-05-13 18:28:14.780 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.472 seconds (JVM running for 3.194)
+2021-05-13 18:28:18.461 [http-nio-9088-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 18:28:18.461 [http-nio-9088-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-13 18:28:18.466 [http-nio-9088-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 5 ms
+2021-05-13 18:28:18.515 [http-nio-9088-exec-2] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]:175 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler processing failed; nested exception is java.lang.NoSuchMethodError: javax.servlet.http.HttpServletRequest.getHttpServletMapping()Ljavax/servlet/http/HttpServletMapping;] with root cause
+java.lang.NoSuchMethodError: javax.servlet.http.HttpServletRequest.getHttpServletMapping()Ljavax/servlet/http/HttpServletMapping;
+	at org.apache.catalina.core.ApplicationHttpRequest.setRequest(ApplicationHttpRequest.java:709)
+	at org.apache.catalina.core.ApplicationHttpRequest.<init>(ApplicationHttpRequest.java:115)
+	at org.apache.catalina.core.ApplicationDispatcher.wrapRequest(ApplicationDispatcher.java:911)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:358)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:170)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-05-13 18:28:18.516 [http-nio-9088-exec-2] ERROR o.a.c.core.ContainerBase.[Tomcat].[localhost]:175 - Exception Processing ErrorPage[errorCode=0, location=/error]
+java.lang.NoSuchMethodError: javax.servlet.http.HttpServletRequest.getHttpServletMapping()Ljavax/servlet/http/HttpServletMapping;
+	at org.apache.catalina.core.ApplicationHttpRequest.setRequest(ApplicationHttpRequest.java:709)
+	at org.apache.catalina.core.ApplicationHttpRequest.<init>(ApplicationHttpRequest.java:115)
+	at org.apache.catalina.core.ApplicationDispatcher.wrapRequest(ApplicationDispatcher.java:911)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:358)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:398)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:257)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:352)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:177)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-05-13 18:29:08.987 [Thread-3] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 18:41:33.469 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 3612 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 18:41:33.472 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 18:41:34.184 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.context.ApplicationContextException: Unable to start ServletWebServerApplicationContext due to missing ServletWebServerFactory bean.
+2021-05-13 18:41:34.191 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-05-13 18:41:34.195 [main] ERROR org.springframework.boot.SpringApplication:822 - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.context.ApplicationContextException: Unable to start ServletWebServerApplicationContext due to missing ServletWebServerFactory bean.
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:156)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:743)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:390)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1214)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1203)
+	at com.tongji.samlsp.ApplicationRun.main(ApplicationRun.java:11)
+Caused by: org.springframework.context.ApplicationContextException: Unable to start ServletWebServerApplicationContext due to missing ServletWebServerFactory bean.
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:203)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:179)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153)
+	... 8 common frames omitted
+2021-05-13 18:44:58.787 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 16544 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 18:44:58.790 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 18:44:59.470 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.context.ApplicationContextException: Unable to start ServletWebServerApplicationContext due to missing ServletWebServerFactory bean.
+2021-05-13 18:44:59.477 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-05-13 18:44:59.480 [main] ERROR org.springframework.boot.SpringApplication:822 - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.context.ApplicationContextException: Unable to start ServletWebServerApplicationContext due to missing ServletWebServerFactory bean.
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:156)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:743)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:390)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1214)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1203)
+	at com.tongji.samlsp.ApplicationRun.main(ApplicationRun.java:11)
+Caused by: org.springframework.context.ApplicationContextException: Unable to start ServletWebServerApplicationContext due to missing ServletWebServerFactory bean.
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:203)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:179)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153)
+	... 8 common frames omitted
+2021-05-13 18:45:18.625 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 9980 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 18:45:18.628 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 18:45:19.358 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 9088 (http)
+2021-05-13 18:45:19.371 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-9088"]
+2021-05-13 18:45:19.383 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2021-05-13 18:45:19.383 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-05-13 18:45:19.477 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-05-13 18:45:19.478 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 812 ms
+2021-05-13 18:45:19.922 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 18:45:19.969 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping:58 - Adding welcome page template: index
+2021-05-13 18:45:20.038 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-9088"]
+2021-05-13 18:45:20.056 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:202 - Tomcat started on port(s): 9088 (http) with context path ''
+2021-05-13 18:45:20.059 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 1.897 seconds (JVM running for 2.512)
+2021-05-13 18:45:30.211 [http-nio-9088-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 18:45:30.211 [http-nio-9088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-13 18:45:30.216 [http-nio-9088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 4 ms
+2021-05-13 18:45:30.263 [http-nio-9088-exec-1] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]:175 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler processing failed; nested exception is java.lang.NoSuchMethodError: javax.servlet.http.HttpServletRequest.getHttpServletMapping()Ljavax/servlet/http/HttpServletMapping;] with root cause
+java.lang.NoSuchMethodError: javax.servlet.http.HttpServletRequest.getHttpServletMapping()Ljavax/servlet/http/HttpServletMapping;
+	at org.apache.catalina.core.ApplicationHttpRequest.setRequest(ApplicationHttpRequest.java:709)
+	at org.apache.catalina.core.ApplicationHttpRequest.<init>(ApplicationHttpRequest.java:115)
+	at org.apache.catalina.core.ApplicationDispatcher.wrapRequest(ApplicationDispatcher.java:911)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:358)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:170)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-05-13 18:45:30.265 [http-nio-9088-exec-1] ERROR o.a.c.core.ContainerBase.[Tomcat].[localhost]:175 - Exception Processing ErrorPage[errorCode=0, location=/error]
+java.lang.NoSuchMethodError: javax.servlet.http.HttpServletRequest.getHttpServletMapping()Ljavax/servlet/http/HttpServletMapping;
+	at org.apache.catalina.core.ApplicationHttpRequest.setRequest(ApplicationHttpRequest.java:709)
+	at org.apache.catalina.core.ApplicationHttpRequest.<init>(ApplicationHttpRequest.java:115)
+	at org.apache.catalina.core.ApplicationDispatcher.wrapRequest(ApplicationDispatcher.java:911)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:358)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:398)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:257)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:352)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:177)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-05-13 18:47:13.648 [http-nio-9088-exec-4] INFO  com.tongji.samlsp.service.SAMLSPServlet:45 - ----------------------------------------------------------------------------------------------
+2021-05-13 18:47:13.649 [http-nio-9088-exec-4] ERROR o.a.c.c.C.[.[.[.[.t.samlsp.service.SAMLSPServlet]:175 - Servlet.service() for servlet [com.tongji.samlsp.service.SAMLSPServlet] in context with path [] threw exception [Servlet execution threw an exception] with root cause
+java.lang.NoSuchMethodError: javax.servlet.http.HttpServletRequest.getHttpServletMapping()Ljavax/servlet/http/HttpServletMapping;
+	at org.apache.catalina.core.ApplicationHttpRequest.setRequest(ApplicationHttpRequest.java:709)
+	at org.apache.catalina.core.ApplicationHttpRequest.<init>(ApplicationHttpRequest.java:115)
+	at org.apache.catalina.core.ApplicationDispatcher.wrapRequest(ApplicationDispatcher.java:911)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:358)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at com.tongji.samlsp.service.SAMLSPServlet.doGet(SAMLSPServlet.java:53)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-05-13 18:47:13.650 [http-nio-9088-exec-4] ERROR o.a.c.core.ContainerBase.[Tomcat].[localhost]:175 - Exception Processing ErrorPage[errorCode=0, location=/error]
+java.lang.NoSuchMethodError: javax.servlet.http.HttpServletRequest.getHttpServletMapping()Ljavax/servlet/http/HttpServletMapping;
+	at org.apache.catalina.core.ApplicationHttpRequest.setRequest(ApplicationHttpRequest.java:709)
+	at org.apache.catalina.core.ApplicationHttpRequest.<init>(ApplicationHttpRequest.java:115)
+	at org.apache.catalina.core.ApplicationDispatcher.wrapRequest(ApplicationDispatcher.java:911)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:358)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:398)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:257)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:352)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:177)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-05-13 18:47:23.568 [http-nio-9088-exec-7] INFO  com.tongji.samlsp.service.SAMLSPServlet:45 - ----------------------------------------------------------------------------------------------
+2021-05-13 18:47:23.569 [http-nio-9088-exec-7] ERROR o.a.c.c.C.[.[.[.[.t.samlsp.service.SAMLSPServlet]:175 - Servlet.service() for servlet [com.tongji.samlsp.service.SAMLSPServlet] in context with path [] threw exception [Servlet execution threw an exception] with root cause
+java.lang.NoSuchMethodError: javax.servlet.http.HttpServletRequest.getHttpServletMapping()Ljavax/servlet/http/HttpServletMapping;
+	at org.apache.catalina.core.ApplicationHttpRequest.setRequest(ApplicationHttpRequest.java:709)
+	at org.apache.catalina.core.ApplicationHttpRequest.<init>(ApplicationHttpRequest.java:115)
+	at org.apache.catalina.core.ApplicationDispatcher.wrapRequest(ApplicationDispatcher.java:911)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:358)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at com.tongji.samlsp.service.SAMLSPServlet.doGet(SAMLSPServlet.java:53)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-05-13 18:47:23.571 [http-nio-9088-exec-7] ERROR o.a.c.core.ContainerBase.[Tomcat].[localhost]:175 - Exception Processing ErrorPage[errorCode=0, location=/error]
+java.lang.NoSuchMethodError: javax.servlet.http.HttpServletRequest.getHttpServletMapping()Ljavax/servlet/http/HttpServletMapping;
+	at org.apache.catalina.core.ApplicationHttpRequest.setRequest(ApplicationHttpRequest.java:709)
+	at org.apache.catalina.core.ApplicationHttpRequest.<init>(ApplicationHttpRequest.java:115)
+	at org.apache.catalina.core.ApplicationDispatcher.wrapRequest(ApplicationDispatcher.java:911)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:358)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:398)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:257)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:352)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:177)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-05-13 18:48:04.900 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 15300 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 18:48:04.903 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 18:48:05.628 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 9088 (http)
+2021-05-13 18:48:05.640 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-9088"]
+2021-05-13 18:48:05.650 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2021-05-13 18:48:05.650 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-05-13 18:48:05.761 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-05-13 18:48:05.761 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 826 ms
+2021-05-13 18:48:06.216 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 18:48:06.263 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping:58 - Adding welcome page template: index
+2021-05-13 18:48:06.338 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-9088"]
+2021-05-13 18:48:06.355 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:202 - Tomcat started on port(s): 9088 (http) with context path ''
+2021-05-13 18:48:06.358 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 1.909 seconds (JVM running for 2.667)
+2021-05-13 18:48:10.489 [http-nio-9088-exec-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:45 - ----------------------------------------------------------------------------------------------
+2021-05-13 18:48:10.495 [http-nio-9088-exec-1] ERROR o.a.c.c.C.[.[.[.[.t.samlsp.service.SAMLSPServlet]:175 - Servlet.service() for servlet [com.tongji.samlsp.service.SAMLSPServlet] in context with path [] threw exception [Servlet execution threw an exception] with root cause
+java.lang.NoSuchMethodError: javax.servlet.http.HttpServletRequest.getHttpServletMapping()Ljavax/servlet/http/HttpServletMapping;
+	at org.apache.catalina.core.ApplicationHttpRequest.setRequest(ApplicationHttpRequest.java:709)
+	at org.apache.catalina.core.ApplicationHttpRequest.<init>(ApplicationHttpRequest.java:115)
+	at org.apache.catalina.core.ApplicationDispatcher.wrapRequest(ApplicationDispatcher.java:911)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:358)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at com.tongji.samlsp.service.SAMLSPServlet.doGet(SAMLSPServlet.java:53)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-05-13 18:48:10.497 [http-nio-9088-exec-1] ERROR o.a.c.core.ContainerBase.[Tomcat].[localhost]:175 - Exception Processing ErrorPage[errorCode=0, location=/error]
+java.lang.NoSuchMethodError: javax.servlet.http.HttpServletRequest.getHttpServletMapping()Ljavax/servlet/http/HttpServletMapping;
+	at org.apache.catalina.core.ApplicationHttpRequest.setRequest(ApplicationHttpRequest.java:709)
+	at org.apache.catalina.core.ApplicationHttpRequest.<init>(ApplicationHttpRequest.java:115)
+	at org.apache.catalina.core.ApplicationDispatcher.wrapRequest(ApplicationDispatcher.java:911)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:358)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:398)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:257)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:352)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:177)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-05-13 18:48:11.058 [http-nio-9088-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 18:48:11.059 [http-nio-9088-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-13 18:48:11.064 [http-nio-9088-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 5 ms
+2021-05-13 18:48:23.229 [main] INFO  com.tongji.samlsp.ApplicationRun:50 - Starting ApplicationRun on DESKTOP-T2K0VFU with PID 15024 (E:\Servlet\SSOProject\target\classes started by user in E:\Servlet\SSOProject)
+2021-05-13 18:48:23.238 [main] INFO  com.tongji.samlsp.ApplicationRun:651 - The following profiles are active: prod
+2021-05-13 18:48:24.071 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 9088 (http)
+2021-05-13 18:48:24.109 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-9088"]
+2021-05-13 18:48:24.116 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2021-05-13 18:48:24.117 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2021-05-13 18:48:24.200 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-05-13 18:48:24.200 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 926 ms
+2021-05-13 18:48:24.634 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 18:48:24.748 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-9088"]
+2021-05-13 18:48:24.771 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:202 - Tomcat started on port(s): 9088 (http) with context path ''
+2021-05-13 18:48:24.773 [main] INFO  com.tongji.samlsp.ApplicationRun:59 - Started ApplicationRun in 2.007 seconds (JVM running for 2.719)
+2021-05-13 18:48:27.210 [http-nio-9088-exec-1] INFO  com.tongji.samlsp.service.SAMLSPServlet:45 - ----------------------------------------------------------------------------------------------
+2021-05-13 18:48:27.215 [http-nio-9088-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 18:48:27.215 [http-nio-9088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-05-13 18:48:27.220 [http-nio-9088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 5 ms

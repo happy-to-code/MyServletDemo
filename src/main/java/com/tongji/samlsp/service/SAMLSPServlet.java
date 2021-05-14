@@ -157,24 +157,24 @@ public class SAMLSPServlet extends HttpServlet {
                 User user = contentInfo.getUser();
                 if (user == null) {
                     log.info("用户信息不可以为空");
-                    redirect(response,errUrl,"用户信息不可以为空");
+                    redirect(response, errUrl, "用户信息不可以为空");
                 }
                 String subUserId = user.getSubUserId();
                 if (subUserId == null) {
                     log.info("subUserId不可以为空");
-                    redirect(response,errUrl,"subUserId不可以为空");
+                    redirect(response, errUrl, "subUserId不可以为空");
                 }
 
                 String sessionToken = user.getSessionToken();
                 if (sessionToken == null) {
                     log.info("sessionToken不可以为空");
-                    redirect(response,errUrl,"sessionToken不可以为空");
+                    redirect(response, errUrl, "sessionToken不可以为空");
                 }
 
                 String appId = user.getAppId();
                 if (appId == null) {
                     log.info("appId不可以为空");
-                    redirect(response,errUrl,"appId不可以为空");
+                    redirect(response, errUrl, "appId不可以为空");
                 }
 
                 // String subUserId = "32233332233";
@@ -191,15 +191,19 @@ public class SAMLSPServlet extends HttpServlet {
                 log.info("jsonResponse:[{}]", jsonResponse);
                 if (jsonResponse == "" || jsonResponse.length() <= 0) {
                     log.info("调用管理系统出错");
-                    redirect(response,errUrl,"调用管理系统出错");
+                    redirect(response, errUrl, "调用管理系统出错");
                 }
                 //  反序列化 jsonResponse 判断有没有验证成功
                 WebCheckResponse webCheckResponse = JSON.parseObject(jsonResponse, WebCheckResponse.class);
                 log.info("webCheckResponse:[{}]", webCheckResponse);
+                if (webCheckResponse == null) {
+                    log.info("解析管理系统参数出错");
+                    redirect(response, errUrl, "解析管理系统参数出错");
+                }
                 Integer code = webCheckResponse.getCode();
                 if (code != 200) {
                     log.info("管理系统验证未通过");
-                    redirect(response,errUrl,"管理系统验证未通过");
+                    redirect(response, errUrl, "管理系统验证未通过");
                 }
                 String jwt = webCheckResponse.getData();
                 log.info("jwt====>[{}]", jwt);
@@ -216,12 +220,12 @@ public class SAMLSPServlet extends HttpServlet {
                     response.setHeader("Location", jwt);
                 } else {
                     log.info("callback fail：[{}]", res);
-                    redirect(response,errUrl,res);
+                    redirect(response, errUrl, res);
                 }
             }
         } catch (Exception e) {
             e.printStackTrace();
-            redirect(response,errUrl,e.toString());
+            redirect(response, errUrl, e.toString());
         }
     }
 

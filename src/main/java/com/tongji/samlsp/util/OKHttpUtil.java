@@ -83,10 +83,12 @@ public class OKHttpUtil {
             }
         } catch (Exception e) {
             log.error("okhttp3 post error >> ex = {}", e);
+            return responseBody;
         } finally {
             if (response != null) {
                 response.close();
             }
+
         }
         return responseBody;
     }

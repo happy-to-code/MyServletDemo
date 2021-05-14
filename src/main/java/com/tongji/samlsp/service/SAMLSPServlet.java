@@ -157,24 +157,24 @@ public class SAMLSPServlet extends HttpServlet {
                 User user = contentInfo.getUser();
                 if (user == null) {
                     log.info("用户信息不可以为空");
-                    redirect(response, errUrl, "用户信息不可以为空");
+                    redirect(response, errUrl, "用户信息不可以为空,请联系管理员");
                 }
                 String subUserId = user.getSubUserId();
                 if (subUserId == null) {
                     log.info("subUserId不可以为空");
-                    redirect(response, errUrl, "subUserId不可以为空");
+                    redirect(response, errUrl, "subUserId不可以为空,请联系管理员");
                 }
 
                 String sessionToken = user.getSessionToken();
                 if (sessionToken == null) {
                     log.info("sessionToken不可以为空");
-                    redirect(response, errUrl, "sessionToken不可以为空");
+                    redirect(response, errUrl, "sessionToken不可以为空,请联系管理员");
                 }
 
                 String appId = user.getAppId();
                 if (appId == null) {
                     log.info("appId不可以为空");
-                    redirect(response, errUrl, "appId不可以为空");
+                    redirect(response, errUrl, "appId不可以为空,请联系管理员");
                 }
 
                 // String subUserId = "32233332233";
@@ -187,23 +187,25 @@ public class SAMLSPServlet extends HttpServlet {
                 String p7StringParamJsonStr = JSON.toJSONString(p7StringDTO);
                 log.info("p7StringParamJsonStr:===>[{}]", p7StringParamJsonStr);
 
-                String jsonResponse = OKHttpUtil.postJsonParams(webUrl, p7StringParamJsonStr);
+                String jsonResponse = "";
+                jsonResponse = OKHttpUtil.postJsonParams(webUrl, p7StringParamJsonStr);
                 log.info("jsonResponse:[{}]", jsonResponse);
                 if (StringUtils.isBlank(jsonResponse)) {
                     log.info("调用管理系统出错");
-                    redirect(response, errUrl, "调用管理系统出错");
+                    redirect(response, errUrl, "调用管理系统出错,请联系管理员");
                 }
                 //  反序列化 jsonResponse 判断有没有验证成功
                 WebCheckResponse webCheckResponse = JSON.parseObject(jsonResponse, WebCheckResponse.class);
                 log.info("webCheckResponse:[{}]", webCheckResponse);
                 if (webCheckResponse == null) {
                     log.info("解析管理系统参数出错");
-                    redirect(response, errUrl, "解析管理系统参数出错");
+                    redirect(response, errUrl, "解析管理系统参数出错,请联系管理员");
+                    return;
                 }
                 Integer code = webCheckResponse.getCode();
                 if (code != 200) {
                     log.info("管理系统验证未通过");
-                    redirect(response, errUrl, "管理系统验证未通过");
+                    redirect(response, errUrl, "管理系统验证未通过,请联系管理员");
                 }
                 String jwt = webCheckResponse.getData();
                 log.info("jwt====>[{}]", jwt);
@@ -220,12 +222,12 @@ public class SAMLSPServlet extends HttpServlet {
                     response.setHeader("Location", jwt);
                 } else {
                     log.info("callback fail：[{}]", res);
-                    redirect(response, errUrl, res);
+                    redirect(response, errUrl, res + ",请联系管理员");
                 }
             }
         } catch (Exception e) {
             e.printStackTrace();
-            redirect(response, errUrl, e.toString());
+            redirect(response, errUrl, e.toString() + ",请联系管理员");
         }
     }
 

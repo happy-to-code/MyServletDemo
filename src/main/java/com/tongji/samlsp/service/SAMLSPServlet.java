@@ -81,7 +81,7 @@ public class SAMLSPServlet extends HttpServlet {
 
             SPConfiguration conf = SPConfiguration.newInstance(samlPropertiesPath);
             SP sp = SP.newInstance(conf);
-            if (samlResponseParam != null && samlResponseParam != "") {
+            if (StringUtils.isNoneBlank(samlResponseParam)) {
                 AuthnResponse samlResponse = sp.parseAuthnResponse(samlResponseParam);
                 log.info("samlResponse:[{}]", samlResponse);
                 log.info("samlResponse.getAttributes():[{}]", samlResponse.getAttributes());
@@ -189,7 +189,7 @@ public class SAMLSPServlet extends HttpServlet {
 
                 String jsonResponse = OKHttpUtil.postJsonParams(webUrl, p7StringParamJsonStr);
                 log.info("jsonResponse:[{}]", jsonResponse);
-                if (jsonResponse.equals("") || jsonResponse.length() <= 0) {
+                if (StringUtils.isBlank(jsonResponse)) {
                     log.info("调用管理系统出错");
                     redirect(response, errUrl, "调用管理系统出错");
                 }

@@ -45,8 +45,8 @@ public class SAMLSPServlet extends HttpServlet {
     }
 
     public void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        // String site = "https://el-admin.vip/guide/ksks.html#%E5%90%8E%E7%AB%AF%E8%BF%90%E8%A1%8C-idea.html";
-        // redirect(resp, site);
+        // String site = "https://www.baidu.com";
+        // redirect(resp, site,"");
         doPost(req, resp);
     }
 
@@ -62,6 +62,7 @@ public class SAMLSPServlet extends HttpServlet {
         log.info("=2====>redirect Url:[{}]", url);
         resp.setStatus(resp.SC_MOVED_TEMPORARILY);
         resp.setHeader("Location", url);
+        return;
     }
 
     public void acs(HttpServletRequest req, HttpServletResponse response,

@@ -189,7 +189,7 @@ public class SAMLSPServlet extends HttpServlet {
 
                 String jsonResponse = OKHttpUtil.postJsonParams(webUrl, p7StringParamJsonStr);
                 log.info("jsonResponse:[{}]", jsonResponse);
-                if (jsonResponse == "" || jsonResponse.length() <= 0) {
+                if (jsonResponse.equals("") || jsonResponse.length() <= 0) {
                     log.info("调用管理系统出错");
                     redirect(response, errUrl, "调用管理系统出错");
                 }
